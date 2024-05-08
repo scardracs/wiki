@@ -78,7 +78,7 @@ The artwork used on the system view can be customized with your own images.  You
 
 To create `centered` artwork that matches the mask used in the theme you can use the `system-art-mask` files I supply in the theme's resources directory [here](https://github.com/anthonycaccese/art-book-next-jelos/tree/main/resources/customizations).  I have tried to include a mask that works in the major editing programs.
 
-If you create a set of images that you would like to share with the community please let us know about it in the themes channel on [Discord](https://discord.gg/seTxckZjJy)
+If you create a set of images that you would like to share with the community please let us know about it in the themes channel on [Discord](https://discord.gg/nou...)
 
 ### Logos
 

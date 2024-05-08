@@ -60,7 +60,7 @@ extra:
     - icon: fontawesome/brands/github 
       link: https://github.com/JustEnoughLinuxOS/distribution
     - icon: fontawesome/brands/discord 
-      link: https://discord.gg/seTxckZjJy
+      link: https://discord.gg/nou...
 plugins:
   - search
   - glightbox

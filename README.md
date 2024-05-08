@@ -16,7 +16,7 @@ You can contribute to the JELOS Wiki in a couple of ways.
 
 Write us a message on the JELOS Discord stating what should be edited or added.
 
-[JELOS Discord](https://discord.gg/seTxckZjJy)
+JELOS Discord (no longer available)
 
 ### Option 2: Creating a Pull Request
 
