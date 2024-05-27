@@ -1,4 +1,4 @@
-# Adding Quirks
+# :material-code-block-tags: Adding Quirks
 
 ## Panel Rotation
 

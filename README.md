@@ -26,4 +26,14 @@ If you do choose to clone the repository, you only need to clone the `main` bran
 
 Depending on your permission level, when you are finished making edits, either push your changes to `main` or create a Pull Request. Any changes you make to the markdown files will automatically be pushed to the `gh-pages` branch and deployed to the website once you have either pushed your changes to `main` or your Pull Request is approved and merged.
 
+### Run a local instance
+
+Watch: https://www.youtube.com/watch?v=Q-YA_dA8C20
+
+Quick notes:
+```
+source venv/bin/activate
+mkdocs serve
+```
+
 Thank you for contributing!

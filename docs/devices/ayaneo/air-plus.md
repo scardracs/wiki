@@ -22,10 +22,6 @@
 
 ## Notes
 
-| DMI_SYS_VENDOR | DMI_PRODUCT_NAME |
-| -- | -- |
-| `AYANEO ` | `AIR Plus` |
-
 ### Installation
 
 Download the latest `AMD64` version of SteamFork from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
@@ -33,12 +29,6 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 [![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/SteamFork/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/SteamFork/distribution/releases/latest)
 
-### Booting from an USB Drive
+### Booting from an external drive (USB or SD Card)
 
-To boot SteamFork from the USB Drive, hold ++"LC"+"Volume Up"++ and press the ++"Power"++ button, continue holding ++"LC"+"Volume Up"++ until the Ayaneo logo appears.  Select the storage device with SteamFork from the boot menu using the Ayaneo button, and then press volume up to boot the distribution.
-
-## Additional References
-
-- [Platform Documentation (AMD64)](https://github.com/SteamFork/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/AMD64)
-- [Device Quirks](https://github.com/SteamFork/distribution/tree/main/packages/hardware/quirks/devices/AYANEO%20AIR%20Plus)
-- [Panel Rotation](https://github.com/SteamFork/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)
+To boot SteamFork from an external drive, hold ++"LC"+"Volume Up"++ and press the ++"Power"++ button, continue holding ++"LC"+"Volume Up"++ until the Ayaneo logo appears.  Select the storage device with SteamFork from the boot menu using the Ayaneo button, and then press volume up to boot the distribution.
