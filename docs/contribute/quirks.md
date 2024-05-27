@@ -49,26 +49,21 @@ Save, and build your patch following the instructions [here](modify.md). Place y
 
 ## Hardware Quirks
 
-Adding hardware quirks are simple, and many examples can be found in `packages/hardware/quirks/devices`.  To begin, review an existing quirk to familiarize yourself with the pattern.
+Adding hardware quirks are simple, and many examples can be found in `https://github.com/SteamFork/distribution/tree/main/PKGBUILD/steamfork-device-support/src/etc/lib/steamfork_hwsupport/him_devicequirks`.  A quirk generation script is provided with SteamFork that can be used to generate a simple quirk for a new device.
 
 ### Creating a Quirk
-The simplest way to create a quirk for your device is to copy an existing quirk and modify it.  To copy it, simply copy the whole folder to the name of your device using the same DMI pattern as above.  If you are working on an AYANEO Air Plus, the folder name would be "AYANEO Air Plus" based on the DMI data in our example.
+To create a quirk using `steamfork-quirk-generator`, open a konsole session in live installer or desktop mode if installed and execute it.  The tool will provide instructions on usage.
 
-Next, edit each file to contain the data appropriate for your device.  To collect the data that you need, use the following tools:
-
-- 001-deviceconfig
-    - This configuration file contains basic information for JELOS that cannot currently be determined automatically.  A configuration is provided with the distribution if there is no quirk found, however it can be customized to suit.  The following tools can be used to identify the correct data for your device.
-    - KEYA/B_MODIFIER - `evtest`.
-    - PATH_SPK/HP - `amixer`.
-- 002-fancontrol
-    - Not all devices have methods available to control the fan.  The following can help determine if yours can be controlled.
-    - `find /sys/devices -name pwm*` and evaluate if fan control is available.
-    - DEVICE_HAS_FAN="false" if manual control cannot be enabled.
+### Example
+To generate a simple quirk to support the OLED panel of the Ayaneo Air family of devices the following would be passed to the tool.
+```
+/usr/bin/steamfork-quirk-generator --gamescope_rotation left --desktop_rotation left --gamescope_resolution 1280x720 --gamescope_displaysize 1280x720
+```
 
 ### Additional Quirks
 
-Your device may need additional quirks to function correctly or for optimization. Ask in the JELOS discord if you need additional guidance.
+Your device may need additional quirks to function correctly or for optimization.
 
 ## Submit Your Quirk
 
-Please follow the instuctons for [Building](build.md) and [Contributing](index.md) to submit your quirks to the distribution for inclusion.  Please do not change major functionality of the distribution or break our hotkey standards, submissions that do not follow our standards will need to be revised.
+Please follow the instuctons for [Building](build.md) and [Contributing](index.md) to submit your quirks to the distribution for inclusion.  Please do not change major functionality of the distribution as upstream compatibility is a primary goal of SteamFork, submissions that do not follow our standards will need to be revised.

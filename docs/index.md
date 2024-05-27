@@ -3,70 +3,116 @@
   <video autoplay loop muted><source src="_inc/video/preview.mp4" type="video/mp4"></video>
 </div>
 
-# Welcome to the JELOS Wiki :material-gamepad:
+# Welcome to the SteamFork Wiki :material-gamepad:
 
-[![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest) [![Activity](https://img.shields.io/github/commit-activity/m/JustEnoughLinuxOS/distribution?labelColor=111111&color=5998FF&label=Commits&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/commits) [![Pull Requests](https://img.shields.io/github/issues-pr-closed/JustEnoughLinuxOS/distribution?labelColor=111111&color=5998FF&label=Pull&nbsp;Requests&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/pulls) [![Community](https://img.shields.io/discord/948029830325235753?labelColor=111111&color=5998FF&label=Community&style=flat#only-light)](https://discord.gg/nou...)
-[![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest) [![Activity](https://img.shields.io/github/commit-activity/m/JustEnoughLinuxOS/distribution?labelColor=dddddd&color=5998FF&label=Commits&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/commits) [![Pull Requests](https://img.shields.io/github/issues-pr-closed/JustEnoughLinuxOS/distribution?labelColor=dddddd&color=5998FF&label=Pull&nbsp;Requests&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/pulls) [![Community](https://img.shields.io/discord/948029830325235753?labelColor=dddddd&color=5998FF&label=Community&style=flat#only-dark)](https://discord.gg/nou...)
-
-Just Enough Linux Operating System (JELOS) is an immutable Linux distribution for handheld gaming devices focused on retro gaming emulation.  It is developed by a small community of enthusiasts and our goal is to produce an operating system that has the features and capabilities we need and to have fun as we develop it.
+SteamFork is a personal project to create an immutable Linux distribution that is as SteamOS like as possible without sacrificing device compatibility.
 
 ## Features
+* Full SteamOS UI/UX, including desktop mode.
+* Minimal changes to SteamOS to preserve upstream compatibility.
+* Power management optimizations ported from [JustEnoughLinuxOS](https://github.com/JustEnoughLinuxOS).
+* Improved fan curves on supported devices.
+* RGB disabled by default on Ayaneo and Ayn devices.
+* Supports booting from removable media such as usb drives and micro sd cards.
 
-- Integrated cross-device local and remote network play.
-- In-game touch support on supported devices.
-- Fine grain control for battery life or performance.
-- Includes support for playing Music and Video.
-- Bluetooth audio and controller support.
-- Support for HDMI audio and video out, and USB audio.
-- Device to device and device to cloud sync with Syncthing and rclone.
-- VPN support with Wireguard, Tailscale, and ZeroTier.
-- Includes built-in support for scraping and retroachievements.
-
-## Preview
-
+## Screenshots
+### Ayn Loki Max
 <table>
   <tr>
-    <td><img src="_inc/images/screenshots/system-view.png"/></td>
-    <td><img src="_inc/images/screenshots/menu.png"/></td>
-  </tr>
-  <tr>
-    <td><img src="_inc/images/screenshots/gamelist-view-metadata-immersive.png"/></td>
-    <td><img src="_inc/images/screenshots/gamelist-view-no-metadata-immersive.png"/></td>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-max-1.jpg"/></td>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-max-2.jpg"/></td>
   </tr>
 </table>
 
-## Community
+### Ayaneo 2S
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-2s-1.jpg"/></td>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-2s-2.jpg"/></td>
+  </tr>
+</table>
 
-The JELOS community utilizes Discord for discussion, if you would like to join us please use this link: &nbsp;[:simple-discord: Discord](https://discord.gg/nou...)
+### Ayaneo Flip KB
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-flip-1.jpg"/></td>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-flip-2.jpg"/></td>
+  </tr>
+</table>
 
 ## Licenses
+SteamFork is a Linux distribution that is made up of many open-source components, and each component is provided under its respective license.  Unless otherwise noted, the content of this project itself is made available under the terms of the MIT license.  See [LICENSE](LICENSE) for details.
 
-JELOS is a Linux distribution that is made up of many open-source components.  Components are provided under their respective licenses.  This distribution includes components licensed for non-commercial use only.
+## Device Support
+SteamFork is available for a variety of devices.  Devices without sponsors are untested may have unknown issues.
+| Manufacturer | Product | Sponsor<sup>1</sup> | Known Issues |
+| -- | -- | -- | -- |
+| Atari | VCS | [Fewtarius](https://github.com/fewtarius) | None |
+| AYANEO | 1S | Unsponsored | Unknown |
+| AYANEO | 2 | Unsponsored | Unknown |
+| AYANEO | 2021 / Pro / Retro Power | Unsponsored | Unknown |
+| AYANEO | 2S | [Fewtarius](https://github.com/fewtarius) | Must enable sleep in firmware<sup>2</sup>. |
+| AYANEO | Air / Air Pro | [Fewtarius](https://github.com/fewtarius) |EDID bug sometimes prevents display from working on boot (sleep/resume to correct), and breaks GPU performance mode.|
+| AYANEO | Air Plus | [Fewtarius](https://github.com/fewtarius) |None |
+| AYANEO | Flip DS | Unsponsored | Unknown |
+| AYANEO | Flip KB | [Fewtarius](https://github.com/fewtarius) | Must enable sleep in firmware<sup>2</sup>. Touch input does not work yet.|
+| AYANEO | Founder Edition | Unsponsored | Unknown |
+| AYANEO | Geek | Unsponsored | Unknown |
+| AYANEO | Next, Next Pro | Unsponsored | Unknown |
+| Ayn | Loki Max | [Fewtarius](https://github.com/fewtarius) | None |
+| Ayn | Loki Zero | Unsponsored | Unknown |
+| GPD | Win 4 | [anthonycaccese](https://github.com/anthonycaccese) | None |
+| GPD | Win Mini | Community tested, unsponsored | None |
 
-### JELOS Branding
+> [!NOTE]
+> <sup>1 </sup> Sponsored devices are fully supported by its maintainer.  Support for unsponsored devices may vary. <sup>2 </sup>New AMD 7000 series devices do not support S3 sleep due to an incorrect firmware setting.  This setting is locked down and must be enabled using a third party helper.  Follow the process from @ChimeraOS to enable sleep [ [here](https://github.com/ChimeraOS/chimeraos/wiki/Community-Guides#enabling-modern-sleep-on-7000-series-amd-hardware) ].
 
-JELOS branding and images are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+### Sponsorship
+Sponsoring a device is a commitment to maintaining support for your device by validating, testing, and bugfixing any issues that may arise.  Adding support for a device's basic features is straight forward, however, it can become far more technical to add support for features such as fan control.  If you are interested in sponsoring your device, follow the process below.
 
-You are free to:
+1. Create a GitHub account if you do not already have one.
+2. Boot the SteamFork live image.
+3. Create a device quirk using the quirk generator included.  Minimum requirements are gamescope resolution, and rotation if needed.
+```
+$ sudo -s
+# steamfork_quirk_generator --help
+```
+4. Create a pull request to the [SteamFork Device Support](https://github.com/SteamFork/distribution/tree/main/PKGBUILD/steamfork-device-support) package with your new addition.
+5. Open and take ownership of any issues specific to your device on the [SteamFork Bug Tracker](https://github.com/SteamFork/bugtracker).
+6. When ready to begin sunsetting support for your device, generate and PR new quirk with the `--supported false` property.
 
-- Share: copy and redistribute the material in any medium or format
-- Adapt: remix, transform, and build upon the material
+## Downloads
+Downloads are hosted at [SteamFork.org](https://www.steamfork.org/steamfork-images/steamfork-installer/) and updates are available OTA.  A download link to the latest installation ISO can be
+ found below.
 
-Under the following terms:
+| Branch | URL | Checksum |
+| -- | -- | -- |
+| Stable | [LATEST](https://www.steamfork.org/steamfork-images/steamfork-installer/steamfork-rel-latest-x86_64.iso) | [CHECKSUM](https://www.steamfork.org/steamfork-images/steamfork-installer/steamfork-rel-latest-x86_64.iso.sha256) |
 
-- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-- NonCommercial: You may not use the material for commercial purposes.
-- ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+### Installation
+To install SteamFork, flash the bootable image to a USB device and then follow the procedure for your device to boot from removable media.  From the live mode desktop, open the "Install SteamFork" application and then follow the prompts to install to your device.  When complete, close the installer, and shut down the device.  Remove the installation media, and then power the device on to boot into SteamOS.
 
-### JELOS Software
+* SteamFork only supports systems with AMD APU/GPUs.
+* Installation to removable media such as microsd and usb drive is not currently supported.
 
-Copyright 2023 JELOS (https://github.com/JustEnoughLinuxOS)
-
-Original software and scripts developed by the JELOS team are licensed under the terms of the [GNU GPL Version 2](https://choosealicense.com/licenses/gpl-2.0/).  The full license can be found in this project's licenses folder.
-
-### Bundled Works
-All other software is provided under each component's respective license.  These licenses can be found in the software sources or in this project's licenses folder.  Modifications to bundled software and scripts by the JELOS team are licensed under the terms of the software being modified.
+## Power Management / TDP Control
+To enable management of the device TDP, switch to desktop mode and then install Decky Loader and Simple Decky TDP.
+| Source | Installation URL |
+| -- | -- |
+| [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) | ```curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh \| sh``` |
+| [Simple Decky TDP](https://github.com/SteamFork/SimpleDeckyTDP) | ```curl -L https://github.com/SteamFork/SimpleDeckyTDP/raw/main/install.sh \| sh``` |
 
 ## Credits
 
-Like any Linux distribution, this project is not the work of one person.  It is the work of many persons all over the world who have developed the open source bits without which this project could not exist.  Special thanks to CoreELEC, LibreELEC, and to developers and contributors across the open source community.
+Like any Linux distribution, this project is not the work of one person.  It is the work of many persons all over the world who have developed the open source bits without which this project could not exist.  Special thanks to Valve for providing SteamOS, HoloISO which this project is based upon, ShadowBlip, JELOS, ChimeraOS, and developers and contributors all across the open source community.
+
+## Support
+This distribution is made available for myself and others who may want to use it, however it is provided as-is.  Bug fix and feature PRs are always welcome.
+
+## Sources
+This project utilizes sources from SteamOS (release repositories), the unofficial Valve source repo, and AUR.
+
+* Valve package repository: `buildroot/pacman-build-*.conf`
+* evlaV Repository: https://gitlab.com/evlaV
+* Arch AUR repository: https://aur.archlinux.org
+* HoloISO (which this project was based): https://github.com/HoloISO

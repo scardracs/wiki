@@ -1,22 +1,22 @@
-# JELOS Wiki
+# SteamFork Wiki
 
-This is the repository for the JELOS Wiki ([created using MkDocs](https://www.mkdocs.org/))
+This is the repository for the SteamFork Wiki ([created using MkDocs](https://www.mkdocs.org/))
 
 It uses the mkdocs-material theme for its layout & styling: [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 
-The JELOS Wiki is located at: [jelos.org](https://jelos.org/)
+The SteamFork Wiki is located at: [steamfork.org](https://steamfork.org/)
 
-This is not the **repository** for the JELOS distribution, you can find that here: [https://github.com/JustEnoughLinuxOS/distribution](https://github.com/JustEnoughLinuxOS/distribution).
+This is not the **repository** for the SteamFork distribution, you can find that here: [https://github.com/SteamFork/distribution](https://github.com/SteamFork/distribution).
 
 ## How to Contribute
 
-You can contribute to the JELOS Wiki in a couple of ways.
+You can contribute to the SteamFork Wiki in a couple of ways.
 
 ### Option 1: A quick shout-out on Discord
 
-Write us a message on the JELOS Discord stating what should be edited or added.
+Write us a message on the SteamFork Discord stating what should be edited or added.
 
-JELOS Discord (no longer available)
+SteamFork Discord (no longer available)
 
 ### Option 2: Creating a Pull Request
 

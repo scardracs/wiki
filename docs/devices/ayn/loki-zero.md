@@ -12,7 +12,7 @@
 
 | Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
 | -- | -- |
-| :material-harddisk: Storage | JELOS can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
+| :material-harddisk: Storage | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 | :material-fan: Fan | Can be set globally, per system or per game. |
@@ -49,14 +49,14 @@
 
 ### Installation
 
-Download the latest `AMD64` version of JELOS from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
+Download the latest `AMD64` version of SteamFork from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
 
-[![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
-[![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
+[![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/SteamFork/distribution/releases/latest)
+[![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/SteamFork/distribution/releases/latest)
 
 ### Booting from an SD Card
 
-In order to launch JELOS from an SD card or a USB drive you will need to first change the boot order in the BIOS.  
+In order to launch SteamFork from an SD card or a USB drive you will need to first change the boot order in the BIOS.  
 
 During boot you can enter the bios by either (1) holding the ++"Home"+"LCC (Turbo)"++ buttons that sit bellow the dpad and right analog stick OR (2) connecting an external keyboard and pressing the ++del++ key.  
 
@@ -68,7 +68,7 @@ In the bios; navigate to the `Boot` menu and then change the boot order to prior
 
 ### Changing the RGB 
 
-In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then select `System Settings` and scroll until you see `Device LEDS`.  Under that setting you can choose to turn RGB Off or select from a set of pre-defined colors.  The value you set will persist through all future reboots but note your RGB setting will only take effect after JELOS boots.
+In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then select `System Settings` and scroll until you see `Device LEDS`.  Under that setting you can choose to turn RGB Off or select from a set of pre-defined colors.  The value you set will persist through all future reboots but note your RGB setting will only take effect after SteamFork boots.
 
 ### Community Videos
 
@@ -174,5 +174,5 @@ In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then se
 	
 ### Quirks
 
-- [Device Quirks](https://github.com/JustEnoughLinuxOS/distribution/tree/main/packages/hardware/quirks/devices/ayn%20Loki%20Zero)
-- [Panel Rotation](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)
+- [Device Quirks](https://github.com/SteamFork/distribution/tree/main/packages/hardware/quirks/devices/ayn%20Loki%20Zero)
+- [Panel Rotation](https://github.com/SteamFork/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)

@@ -12,7 +12,7 @@
 
 | Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
 | -- | -- |
-| :material-harddisk: Storage | JELOS can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
+| :material-harddisk: Storage | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 | :material-fan: Fan | Can be set globally, per system or per game. |
@@ -23,14 +23,14 @@
 
 ### Installation
 
-Download the latest `AMD64` version of JELOS from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
+Download the latest `AMD64` version of SteamFork from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
 
-[![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
-[![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
+[![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/SteamFork/distribution/releases/latest)
+[![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/SteamFork/distribution/releases/latest)
 
 ### Booting from an SD Card
 
-In order to launch JELOS from an SD card or a USB drive you will need to first change the boot order in the BIOS.  
+In order to launch SteamFork from an SD card or a USB drive you will need to first change the boot order in the BIOS.  
 
 During boot you can enter the bios by either pressing the `del` key on the built-in keyboard.  
 
@@ -38,5 +38,5 @@ In the bios; navigate to the `Boot` menu and then change the boot order to prior
 
 ## Additional References
 
-- [Platform Documentation (AMD64)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/AMD64)
-- [Panel Rotation](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)
+- [Platform Documentation (AMD64)](https://github.com/SteamFork/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/AMD64)
+- [Panel Rotation](https://github.com/SteamFork/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)
