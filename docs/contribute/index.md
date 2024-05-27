@@ -2,7 +2,7 @@
 icon: material/developer-board
 --->
 
-# Contributing to SteamFork
+# :material-developer-board: Contributing to SteamFork
 
 Your contribution helps SteamFork become a better Linux distribution, so we're glad you're here! We aim to make contributing to this project as easy and transparent as possible.  
 

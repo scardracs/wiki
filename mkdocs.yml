@@ -1,7 +1,7 @@
 site_name: SteamFork Wiki
 site_url: https://wiki.steamfork.org
-repo_url: https://github.com/SteamFork/wiki
-repo_name: wiki
+repo_url: https://github.com/SteamFork/distribution
+repo_name: distribution
 copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
 theme:
   language: en
@@ -71,9 +71,7 @@ nav:
       - contribute/index.md
       - Code of Conduct: contribute/code-of-conduct.md
       - Build: contribute/build.md
-      - Modify: contribute/modify.md
       - Quirks: contribute/quirks.md
-      - Packages: contribute/packages.md
     - Devices: 
       - devices/index.md
       - Atari:
@@ -87,4 +85,3 @@ nav:
         - Loki Max: devices/ayn/loki-max.md
       - GPD:
         - Win 4: devices/gpd/win4.md
-        - Win Max 2: devices/gpd/win-max-2.md

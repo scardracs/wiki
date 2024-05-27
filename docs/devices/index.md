@@ -1,6 +1,10 @@
-## Device Support
-SteamFork is available for a variety of devices.  Devices without sponsors are untested may have unknown issues.
-| Manufacturer | Product | Sponsor<sup>1</sup> | Known Issues |
+# :material-television: Device Support
+
+## Tested devices
+
+SteamFork has been tested (i.e. booted at least once) on the list of devices below.  Devices with a sponsor are actively tested and used with SteamFork frequently.  Devices without a sponsor are not actively maintained and may have unknown issues.
+
+| Manufacturer | Device | Sponsor<sup>1</sup> | Known Issues |
 | -- | -- | -- | -- |
 | Atari | VCS | [Fewtarius](https://github.com/fewtarius) | None |
 | AYANEO | 1S | Unsponsored | Unknown |
@@ -16,13 +20,15 @@ SteamFork is available for a variety of devices.  Devices without sponsors are u
 | AYANEO | Next, Next Pro | Unsponsored | Unknown |
 | Ayn | Loki Max | [Fewtarius](https://github.com/fewtarius) | None |
 | Ayn | Loki Zero | Unsponsored | Unknown |
-| GPD | Win 4 | [anthonycaccese](https://github.com/anthonycaccese) | None |
-| GPD | Win Mini | Community tested, unsponsored | None |
+| GPD | Win 4 (6800U) | [anthonycaccese](https://github.com/anthonycaccese) | None |
+| GPD | Win Mini (8840U) | Unsponsored | None |
 
-> [!NOTE]
-> <sup>1 </sup> Sponsored devices are fully supported by its maintainer.  Support for unsponsored devices may vary. <sup>2 </sup>New AMD 7000 series devices do not support S3 sleep due to an incorrect firmware setting.  This setting is locked down and must be enabled using a third party helper.  Follow the process from @ChimeraOS to enable sleep [ [here](https://github.com/ChimeraOS/chimeraos/wiki/Community-Guides#enabling-modern-sleep-on-7000-series-amd-hardware) ].
+!!! info
+    - <sup>1</sup> Sponsored devices are fully supported by its maintainer.  Support for unsponsored devices may vary. 
+    - <sup>2</sup> New AMD 7000 series devices do not support S3 sleep due to an incorrect firmware setting.  This setting is locked down and must be enabled using a third party helper.  Follow the process from @ChimeraOS to enable sleep [here](https://github.com/ChimeraOS/chimeraos/wiki/Community-Guides#enabling-modern-sleep-on-7000-series-amd-hardware).
 
-### Sponsorship
+## Sponsoring a device
+
 Sponsoring a device is a commitment to maintaining support for your device by validating, testing, and bugfixing any issues that may arise.  Adding support for a device's basic features is straight forward, however, it can become far more technical to add support for features such as fan control.  If you are interested in sponsoring your device, follow the process below.
 
 1. Create a GitHub account if you do not already have one.

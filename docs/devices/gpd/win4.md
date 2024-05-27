@@ -28,15 +28,10 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 [![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/SteamFork/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/SteamFork/distribution/releases/latest)
 
-### Booting from an SD Card
+### Booting from an external drive (USB or SD Card)
 
-In order to launch SteamFork from an SD card or a USB drive you will need to first change the boot order in the BIOS.  
+In order to launch SteamFork from a USB drive or SD Card you will need to first change the boot order in the BIOS.
 
 During boot you can enter the bios by either pressing the `del` key on the built-in keyboard.  
 
 In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card under `Boot Order Priorities`. Then go `Save & Exit` and select the Save Changes and Exit option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.
-
-## Additional References
-
-- [Platform Documentation (AMD64)](https://github.com/SteamFork/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/AMD64)
-- [Panel Rotation](https://github.com/SteamFork/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)

@@ -134,18 +134,13 @@
 }
 
 div.preview-container {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-bottom: 1.25em;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center 
 }
-div.preview-container video {
-  position: absolute;
-  margin: 0;
-  width: 52%;
-}
-div.preview-container image {
-  position: absolute;
+
+.md-typeset .emojione, .md-typeset .gemoji, .md-typeset .twemoji {
+  vertical-align: text-bottom;
 }

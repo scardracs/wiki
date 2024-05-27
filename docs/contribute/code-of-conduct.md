@@ -1,4 +1,4 @@
-# Contributor Code of Conduct
+# :material-certificate: Contributor Code of Conduct
 
 ## Our Pledge
 
