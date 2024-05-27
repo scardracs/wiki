@@ -4,7 +4,7 @@ This is the repository for the SteamFork Wiki ([created using MkDocs](https://ww
 
 It uses the mkdocs-material theme for its layout & styling: [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 
-The SteamFork Wiki is located at: [steamfork.org](https://steamfork.org/)
+The SteamFork Wiki is located at: [wiki.steamfork.org](https://wiki.steamfork.org/)
 
 This is not the **repository** for the SteamFork distribution, you can find that here: [https://github.com/SteamFork/distribution](https://github.com/SteamFork/distribution).
 

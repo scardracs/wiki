@@ -1,7 +1,7 @@
 site_name: SteamFork Wiki
-site_url: https://steamfork.org
-repo_url: https://github.com/SteamFork/steamfork.org
-repo_name: steamfork.org
+site_url: https://wiki.steamfork.org
+repo_url: https://github.com/SteamFork/wiki
+repo_name: wiki
 copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
 theme:
   language: en
