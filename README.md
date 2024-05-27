@@ -10,15 +10,7 @@ This is not the **repository** for the SteamFork distribution, you can find that
 
 ## How to Contribute
 
-You can contribute to the SteamFork Wiki in a couple of ways.
-
-### Option 1: A quick shout-out on Discord
-
-Write us a message on the SteamFork Discord stating what should be edited or added.
-
-SteamFork Discord (no longer available)
-
-### Option 2: Creating a Pull Request
+### Creating a Pull Request
 
 You will need to create a GitHub account to open a Pull Request.
 
