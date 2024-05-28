@@ -2,18 +2,12 @@
 
 ![](../../_inc/images/devices/gpdwin-4.png){ .off-glb }
 
-## Overview
-
-| Device | CPU / Architecture | Kernel | GL driver | Interface |
-| -- | -- | -- | -- | -- |
-| Win 4 | Amd Ryzen 7 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
-
 ## Features
 
 | Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
 | -- | -- |
 | :material-harddisk: Storage | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
-| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network |
+| :material-wifi: Wifi | Can be turned on in Steam OS under Main Menu > Network |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 | :material-fan: Fan | Can be set globally, per system or per game. |
 | :material-lightning-bolt-circle: TPD Limit | Can be set globally, per system or per game. |

@@ -2,18 +2,12 @@
 
 ![](../../_inc/images/devices/atari-vcs.png){ .off-glb }
 
-## Overview
-
-| Device | CPU / Architecture | Kernel | GL driver | Interface |
-| -- | -- | -- | -- | -- |
-| VCS | AMD Ryzen R1606G (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station | 
-
 ## Features
 
 | Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
 | -- | -- |
-| :material-harddisk: Storage | SteamFork can be run from an USB Drive or installed directly to the internal EMMC or optional sata SSD. <br> When installed directly to the EMMC or SSD; an USB drive can optionally be used for game storage. |
-| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
+| :material-harddisk: Storage | SteamFork can be run from an USB Drive or installed directly to the internal drive.
+| :material-wifi: Wifi | Can be turned on in Steam OS under Main Menu > Network Settings |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 | :material-fan: Fan | Controlled by system firmware. |
 | :material-lightning-bolt-circle: TPD Limit | Can be set globally, per system or per game. |

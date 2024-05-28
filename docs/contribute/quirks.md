@@ -2,7 +2,7 @@
 
 ## Panel Rotation
 
-If you have a new device that supports Mainline Linux, adding and submitting a rotation patch is very simple. Adding a rotation patch to the kernel will provide the hints needed for Wayland/Weston to also correctly rotate the panel.
+If you have a new device that supports Mainline Linux, adding and submitting a rotation patch is very simple. Adding a rotation patch to the kernel will provide the hints needed for the OS to correctly rotate the panel.
 
 To begin, download the kernel sources.  Extract the kernel and rename it to linux-{version}.orig, and then copy that folder to linux-{version} or extract it again so there are two copies.  This will be necessary to create the [patch](modify.md#creating-a-patch-for-a-package-using-git).
 
