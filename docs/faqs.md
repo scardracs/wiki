@@ -17,3 +17,8 @@ That said, anyone who is interested can submit updates to SteamFork to add suppo
 ### How do I log in over SSH or Samba?
 * Log into desktop mode and enable it with command: `sudo systemctl start sshd`.
 * To enable it on every boot (not recommended): `sudo steamos-readonly disable && sudo systemctl enable sshd`.
+
+### How do I update packages in between releases?
+SteamFork is immutable so any changes may be lost, however it may be useful to update packages to work around a bug.  To install packages locally temporarily:
+* Log into desktop mode and make the filesystem writeable: `sudo steamos-readonly disable`
+* Install or update the package: Ex. `sudo pacman -Sy steamfork-customizations-jupiter`
