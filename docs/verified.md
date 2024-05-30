@@ -1,6 +1,6 @@
 # :material-checkbox-multiple-marked: Verified Software and Accessories 
 
-### Verified Software
+### Software
 All software listed below is available for installation via desktop mode.
 
 |Software|Format|Description|
@@ -11,14 +11,14 @@ All software listed below is available for installation via desktop mode.
 |**Spotify**|Flatpak|Spotify Music Player|
 |**VLC**|Flatpak|Video/Movie Player|
 
-### Verified Decky Plugins
+### Decky Plugins
 
 |Plugin|Description|Installation Source|
 |----|----|----|
 |**SimpleDeckyTDP**|CPU/GPU/TDP management utility|[SteamFork Project](https://github.com/SteamFork/SimpleDeckyTDP/releases)
 |**SteamGridDB**|Artwork downloader for SteamOS|Install using Decky Plugin Browser|
 
-### Verified Accessories 
+### Accessories 
 #### Audio
 
 |Device|Description|Where to Purchase|
