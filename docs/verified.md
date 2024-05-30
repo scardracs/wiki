@@ -1,4 +1,4 @@
-# :material-checkbox-multiple-marked: Verified Software and Hardware
+# :material-checkbox-multiple-marked: Verified Software and Accessories 
 
 ### Verified Software
 All software listed below is available for installation via desktop mode.
@@ -18,7 +18,7 @@ All software listed below is available for installation via desktop mode.
 |**SimpleDeckyTDP**|CPU/GPU/TDP management utility|[SteamFork Project](https://github.com/SteamFork/SimpleDeckyTDP/releases)
 |**SteamGridDB**|Artwork downloader for SteamOS|Install using Decky Plugin Browser|
 
-### Verified Hardware
+### Verified Accessories 
 #### Audio
 
 |Device|Description|Where to Purchase|
