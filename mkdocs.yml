@@ -67,6 +67,7 @@ plugins:
 nav:
     - Home: index.md
     - FAQs: faqs.md
+    - Verified Software and Accessories: verified.md
     - Contribute:
       - contribute/index.md
       - Code of Conduct: contribute/code-of-conduct.md
