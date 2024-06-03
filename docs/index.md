@@ -29,21 +29,12 @@ SteamFork is a Linux distribution that is made up of many open-source components
 
 Please see the [devices](../devices) section.
 
-## Downloads
-Downloads are hosted at [SteamFork.org](https://www.steamfork.org/steamfork-images/steamfork-installer/) and updates are available OTA.  A download link to the latest installation ISO can be
- found below.
+## Installation
 
-| Branch | URL | Checksum |
-| -- | -- | -- |
-| Stable | [LATEST](https://www.steamfork.org/steamfork-images/steamfork-installer/steamfork-rel-latest-x86_64.iso) | [CHECKSUM](https://www.steamfork.org/steamfork-images/steamfork-installer/steamfork-rel-latest-x86_64.iso.sha256) |
-
-### Installation
-To install SteamFork, flash the bootable image to a USB device and then follow the procedure for your device to boot from removable media.  From the live mode desktop, open the "Install SteamFork" application and then follow the prompts to install to your device.  When complete, close the installer, and shut down the device.  Remove the installation media, and then power the device on to boot into SteamOS.
-
-* SteamFork only supports systems with AMD APU/GPUs.
-* Installation to removable media such as microsd and usb drive is not currently supported.
+Please see the [install](../play/install) section.
 
 ## Power Management / TDP Control
+
 To enable management of the device TDP, switch to desktop mode and then install Decky Loader and Simple Decky TDP.
 
 | Source | Installation URL |
