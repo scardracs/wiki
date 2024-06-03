@@ -59,15 +59,18 @@ extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/SteamFork/distribution
-    - icon: fontawesome/brands/discord 
-      link: https://discord.gg/nou...
+    #- icon: fontawesome/brands/discord 
+    #  link: https://discord.gg/nou...
 plugins:
   - search
   - glightbox
 nav:
     - Home: index.md
     - FAQs: faqs.md
-    - Verified Software and Accessories: verified.md
+    - Play:
+      - Install: play/install.md
+      - Software: play/verified-software.md 
+      - Accessories: play/verified-accessories.md 
     - Contribute:
       - contribute/index.md
       - Code of Conduct: contribute/code-of-conduct.md
