@@ -11,7 +11,7 @@ SteamFork is a project to create an immutable Linux distribution that is as Stea
 * Minimal changes to SteamOS to preserve upstream compatibility.
 * Power management optimizations ported from [JustEnoughLinuxOS](https://github.com/JustEnoughLinuxOS).
 * Improved fan curves on supported devices.
-* RGB disabled by default on Ayaneo and Ayn devices.
+* RGB off by default and flash on low battery on supported devices.
 * Supports booting from removable media such as usb drives and micro sd cards.
 
 ## Screenshots
