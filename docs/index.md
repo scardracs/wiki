@@ -17,8 +17,8 @@ SteamFork is a project to create an immutable Linux distribution that is as Stea
 ## Screenshots
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-max-1.jpg"/></td>
-    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-max-2.jpg"/></td>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240609-max-1.jpg"/></td>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240609-max-2.jpg"/></td>
   </tr>
 </table>
 
