@@ -39,8 +39,8 @@ To enable management of the device TDP, switch to desktop mode and then install 
 
 | Source | Installation URL |
 | -- | -- |
-| [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) | ```curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh \| sh``` |
-| [Simple Decky TDP](https://github.com/SteamFork/SimpleDeckyTDP) | ```curl -L https://github.com/SteamFork/SimpleDeckyTDP/raw/main/install.sh \| sh``` |
+| [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) | <code>curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh \| sh</code> |
+| [Simple Decky TDP](https://github.com/SteamFork/SimpleDeckyTDP) | <code>curl -L https://github.com/SteamFork/SimpleDeckyTDP/raw/main/install.sh \| sh</code> |
 
 ## Credits
 
