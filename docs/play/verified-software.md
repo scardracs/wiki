@@ -18,3 +18,4 @@ All software listed below is available for installation via desktop mode.
 |----|----|----|
 |**SimpleDeckyTDP**|CPU/GPU/TDP management utility|[SteamFork Project](https://github.com/SteamFork/SimpleDeckyTDP/releases)
 |**SteamGridDB**|Artwork downloader for SteamOS|Install using Decky Plugin Browser|
+|**HueSync**|RGB control plugin|https://github.com/honjow/HueSync|

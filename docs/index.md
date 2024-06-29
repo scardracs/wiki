@@ -37,10 +37,11 @@ Please see the [install](../play/install) section.
 
 To enable management of the device TDP, switch to desktop mode and then install Decky Loader and Simple Decky TDP.
 
-| Source | Installation URL |
-| -- | -- |
-| [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) | <code>curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh \| sh</code> |
-| [Simple Decky TDP](https://github.com/SteamFork/SimpleDeckyTDP) | <code>curl -L https://github.com/SteamFork/SimpleDeckyTDP/raw/main/install.sh \| sh</code> |
+| Source | Description | Installation URL |
+| -- | -- | -- |
+| [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) | Steam Deck plugin launcher | <code>curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh \| sh</code> |
+| [Simple Decky TDP](https://github.com/SteamFork/SimpleDeckyTDP) | TDP control| <code>curl -L https://github.com/SteamFork/SimpleDeckyTDP/raw/main/install.sh \| sh</code> |
+| [HueSync](https://github.com/honjow/HueSync) | RGB control| <code>curl -L https://raw.githubusercontent.com/honjow/huesync/main/install.sh \| sh</code> |
 
 ## Credits
 
