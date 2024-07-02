@@ -12,7 +12,7 @@ SteamFork is a project to create an immutable Linux distribution that is as Stea
 * Power management optimizations ported from [JustEnoughLinuxOS](https://github.com/JustEnoughLinuxOS).
 * Improved fan curves on supported devices.
 * RGB off by default, will flash on low battery (on supported devices).
-* Supports booting from removable media such as usb drives and micro sd cards.
+* Supports booting from removable media such as usb drives and micro sd cards (64GB minimum).
 
 ## Screenshots
 <table>
