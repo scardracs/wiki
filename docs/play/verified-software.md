@@ -31,7 +31,8 @@ All software listed below is available for installation via desktop mode.  Flatp
 ### Decky Plugins
 |Plugin|Description|Installation Source|
 |----|----|----|
+|**FanControl**|Fan control plugin (Disable steamfork-fancontrol on Ayn/Ayaneo)|[SteamFork Project](https://github.com/SteamFork/FanControl/releases)|
 |**HueSync**|RGB control plugin|https://github.com/honjow/HueSync|
 |**MusicControl**|A music player control plugin|Install using Decky Plugin Browser|
-|**SimpleDeckyTDP**|CPU/GPU/TDP management utility|[SteamFork Project](https://github.com/SteamFork/SimpleDeckyTDP/releases)
+|**SimpleDeckyTDP**|CPU/GPU/TDP management utility|[SteamFork Project](https://github.com/SteamFork/SimpleDeckyTDP/releases)|
 |**SteamGridDB**|Artwork downloader for SteamOS|Install using Decky Plugin Browser|
