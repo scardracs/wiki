@@ -12,7 +12,7 @@ All software listed below is available for installation via desktop mode.  Flatp
 |**Heroic**|Flatpak|Access to GoG, Epic, and Amazon Game Stores|
 |**Spotify**|Flatpak|Spotify Music Player|
 |**Steam Rom Manager**|Flatpak|A game organizer for emulation.|
-|**SyncThingy|Flatpak|Peer to Peer Sync|
+|**SyncThingy**|Flatpak|Peer to Peer Sync|
 |**VLC**|Flatpak|Video/Movie Player|
 
 ### Emulators
