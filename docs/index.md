@@ -25,6 +25,10 @@ SteamFork is a project to create an immutable Linux distribution that is as Stea
 ## Licenses
 SteamFork is a Linux distribution that is made up of many open-source components, and each component is provided under its respective license.  Unless otherwise noted, the content of this project itself is made available under the terms of the MIT license.  See [LICENSE](LICENSE) for details.
 
+## Community
+We use Discord for project related discussion.  Everyone is welcome to join our community by clicking the invitation link below.
+* [SteamFork Discord](https://discord.gg/AQ5rtQstCf)
+
 ## Device Support
 
 Please see the [devices](../devices) section.
