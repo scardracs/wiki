@@ -27,6 +27,7 @@ SteamFork is a Linux distribution that is made up of many open-source components
 
 ## Community
 We use Discord for project related discussion.  Everyone is welcome to join our community by clicking the invitation link below.
+
 * [SteamFork Discord](https://discord.gg/AQ5rtQstCf)
 
 ## Device Support
