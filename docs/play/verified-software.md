@@ -15,6 +15,11 @@ All software listed below is available for installation via desktop mode.  Flatp
 |**SyncThingy**|Flatpak|Peer to Peer Sync|
 |**VLC**|Flatpak|Video/Movie Player|
 
+### Streaming
+|Software|Description|Installation Source|
+|----|----|----|
+|SetupStreamingServices|Configure a variety of streaming services|[SteamFork Project](https://github.com/SteamFork/SetupStreamingServices)|
+
 ### Emulators
 |Software|Format|Description|
 |----|----|----|
