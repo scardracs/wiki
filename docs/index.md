@@ -4,26 +4,31 @@
 
 # Welcome to the SteamFork Wiki
 
-SteamFork is a personal project to create an immutable Linux distribution that is as SteamOS like as possible without sacrificing device compatibility.
+SteamFork is a project to create an immutable Linux distribution that is as SteamOS like as possible without sacrificing device compatibility.
 
 ## Features
 * Full SteamOS UI/UX, including desktop mode.
 * Minimal changes to SteamOS to preserve upstream compatibility.
 * Power management optimizations ported from [JustEnoughLinuxOS](https://github.com/JustEnoughLinuxOS).
 * Improved fan curves on supported devices.
-* RGB disabled by default on Ayaneo and Ayn devices.
-* Supports booting from removable media such as usb drives and micro sd cards.
+* RGB off by default, will flash on low battery (on supported devices).
+* Supports booting from removable media such as usb drives and micro sd cards (64GB minimum).
 
 ## Screenshots
 <table>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-max-1.jpg"/></td>
-    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240525-max-2.jpg"/></td>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240609-max-1.jpg"/></td>
+    <td><img src="https://raw.githubusercontent.com/SteamFork/.github/main/profile/.images/20240609-max-2.jpg"/></td>
   </tr>
 </table>
 
 ## Licenses
 SteamFork is a Linux distribution that is made up of many open-source components, and each component is provided under its respective license.  Unless otherwise noted, the content of this project itself is made available under the terms of the MIT license.  See [LICENSE](LICENSE) for details.
+
+## Community
+We use Discord for project related discussion.  Everyone is welcome to join our community by clicking the invitation link below.
+
+* [SteamFork Discord](https://discord.gg/AQ5rtQstCf)
 
 ## Device Support
 
@@ -37,10 +42,11 @@ Please see the [install](../play/install) section.
 
 To enable management of the device TDP, switch to desktop mode and then install Decky Loader and Simple Decky TDP.
 
-| Source | Installation URL |
-| -- | -- |
-| [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) | ```curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh \| sh``` |
-| [Simple Decky TDP](https://github.com/SteamFork/SimpleDeckyTDP) | ```curl -L https://github.com/SteamFork/SimpleDeckyTDP/raw/main/install.sh \| sh``` |
+| Source | Description | Installation URL |
+| -- | -- | -- |
+| [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) | Steam Deck plugin launcher | <code>curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh \| sh</code> |
+| [Simple Decky TDP](https://github.com/SteamFork/SimpleDeckyTDP) | TDP control| <code>curl -L https://github.com/SteamFork/SimpleDeckyTDP/raw/main/install.sh \| sh</code> |
+| [HueSync](https://github.com/honjow/HueSync) | RGB control| <code>curl -L https://raw.githubusercontent.com/honjow/huesync/main/install.sh \| sh</code> |
 
 ## Credits
 

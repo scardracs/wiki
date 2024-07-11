@@ -2,7 +2,7 @@
 
 ## Tested devices
 
-SteamFork has been tested (i.e. booted at least once) on the list of devices below.  Devices with a sponsor are actively tested and used with SteamFork frequently.  Devices without a sponsor are not actively maintained and may have unknown issues.
+SteamFork has been tested (i.e. booted at least once) on the list of devices below.  Devices with a sponsor are actively tested and used with SteamFork frequently.  Devices without a sponsor are not actively maintained and may have unknown issues. While untested, modern desktop and mini PCs that utilize an AMD APU or GPU should not have any issues.
 
 | Manufacturer | Device | Sponsor<sup>1</sup> | Known Issues |
 | -- | -- | -- | -- |
