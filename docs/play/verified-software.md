@@ -34,10 +34,11 @@ All software listed below is available for installation via desktop mode.  Flatp
 |**Xemu**|Flatpak|An Xbox emulator|
 
 ### Decky Plugins
+[Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) is required to use the plugins below.
 |Plugin|Description|Installation Source|
 |----|----|----|
-|**FanControl**|Fan control plugin (Disable steamfork-fancontrol on Ayn/Ayaneo)|[SteamFork Project](https://github.com/SteamFork/FanControl/releases)|
+|**FanControl**|Fan control plugin (Disable steamfork-fancontrol on Ayn/Ayaneo)|[SteamFork Project](https://github.com/SteamFork/FanControl)|
 |**HueSync**|RGB control plugin|[HueSync Project](https://github.com/honjow/HueSync)|
 |**MusicControl**|A music player control plugin|Install using Decky Plugin Browser|
-|**SimpleDeckyTDP**|CPU/GPU/TDP management utility|[SteamFork Project](https://github.com/SteamFork/SimpleDeckyTDP/releases)|
+|**SimpleDeckyTDP**|CPU/GPU/TDP management utility|[SteamFork Project](https://github.com/SteamFork/SimpleDeckyTDP)|
 |**SteamGridDB**|Artwork downloader for SteamOS|Install using Decky Plugin Browser|
