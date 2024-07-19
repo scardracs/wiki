@@ -2,7 +2,7 @@
 
 ## Hardware Quirks
 
-Adding hardware quirks are simple, and many examples can be found in `https://github.com/SteamFork/distribution/tree/main/PKGBUILD/steamfork-device-support/src/etc/lib/steamfork_hwsupport/him_devicequirks`.  A quirk generation script is provided with SteamFork that can be used to generate a simple quirk for a new device.
+Adding hardware quirks are simple, and many examples can be found in `https://github.com/SteamFork/distribution/tree/main/PKGBUILD/steamfork-device-support/src/etc/lib/steamfork_hwsupport/devicequirks`.  A quirk generation script is provided with SteamFork that can be used to generate a simple quirk for a new device.
 
 ### Creating a Quirk
 To create a quirk using `steamfork-quirk-generator`, open a konsole session in live installer or desktop mode if installed and execute it.  The tool will provide instructions on usage.

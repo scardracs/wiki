@@ -38,7 +38,7 @@ Sponsoring a device is a commitment to maintaining support for your device by va
 3. Create a device quirk using the quirk generator included.  Minimum requirements are gamescope resolution, and rotation if needed.
 ```
 $ sudo -s
-# steamfork_quirk_generator --help
+# steamfork-quirk-generator --help
 ```
 4. Create a pull request to the [SteamFork Device Support](https://github.com/SteamFork/distribution/tree/main/PKGBUILD/steamfork-device-support) package with your new addition.
 5. Open and take ownership of any issues specific to your device on the [SteamFork Bug Tracker](https://github.com/SteamFork/bugtracker).
