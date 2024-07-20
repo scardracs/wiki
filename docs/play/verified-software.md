@@ -35,6 +35,7 @@ All software listed below is available for installation via desktop mode.  Flatp
 
 ### Decky Plugins
 [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) is required to use the plugins below.
+
 |Plugin|Description|Installation Source|
 |----|----|----|
 |**FanControl**|Fan control plugin (Disable steamfork-fancontrol on Ayn/Ayaneo)|[SteamFork Project](https://github.com/SteamFork/FanControl)|
