@@ -34,7 +34,7 @@ All software listed below is available for installation via desktop mode.  Flatp
 |**Xemu**|Flatpak|An Xbox emulator|
 
 ### Decky Plugins
-[Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) is required to use the plugins below.
+[Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) is required to use the plugins below.  It is automatically installed when installing plugins using the "Setup Helpers" tool which is available in Desktop mode.
 
 |Plugin|Description|Installation Source|
 |----|----|----|
