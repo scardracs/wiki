@@ -2,6 +2,9 @@
 
 ## About SteamFork
 
+### How often does SteamFork release?
+SteamFork has adopted a weekly release cadance, however unless there are enough significant changes to justify releasing we may not release every week.  Significant changes include critical bug fixes, security improvements, major features, or a collection of general distribution improvements.
+
 ### Does SteamFork offer any formal support?
 
 No. SteamFork is something that we develop for fun, it is provided as-is.  We do provide a bug tracker, however as a community supported project there is no commitment of formal support.
