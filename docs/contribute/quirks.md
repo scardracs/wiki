@@ -2,16 +2,18 @@
 
 ## Hardware Quirks
 
-Adding hardware quirks are simple, and many examples can be found in `https://github.com/SteamFork/distribution/tree/main/PKGBUILD/steamfork-device-support/src/etc/lib/steamfork_hwsupport/devicequirks`.  A quirk generation script is provided with SteamFork that can be used to generate a simple quirk for a new device.
+Adding hardware quirks are simple, and many examples can be found in `https://github.com/SteamFork/distribution/tree/main/PKGBUILD/steamfork-device-support/src/etc/lib/steamfork_hwsupport/devicequirks`.  A UI tool is provided with SteamFork that can be used to generate a simple quirk for a new device.
 
 ### Creating a Quirk
-To create a quirk using `steamfork-quirk-generator`, open a konsole session in live installer or desktop mode if installed and execute it.  The tool will provide instructions on usage.
+To create a quirk using the UI, open a konsole session in desktop mode and execute `steamfork-quirk-generator-ui`.  Make your desired selections and press OK.  The tool will generate a quirk for your device based on your selections and then reboot.
 
-### Example
-To generate a simple quirk to support the OLED panel of the Ayaneo Air family of devices the following would be passed to the tool.
+### Manual Quirk Generation
+If you would prefer to manually generate a simple quirk, the `steamfork-quirk-generator` tool is also available.  For example, to generate a quirk for AYANEO Air devices, execute it with the following options.
 ```
 /usr/bin/steamfork-quirk-generator --gamescope_rotation left --desktop_rotation left --gamescope_resolution 1280x720 --gamescope_displaysize 1280x720
 ```
+
+Save the quirk to the directory provided in the output and reboot the device.
 
 ### Additional Quirks
 
