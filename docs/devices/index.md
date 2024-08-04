@@ -6,10 +6,10 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 
 | Manufacturer | Product | Sponsor <sup>1</sup> |
 | -- | -- | -- |
-| ANTEC | Core HS <sup>2</sup> | Community Verified |
+| ANTEC | Core HS <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | Atari | VCS | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | 1S <sup>2</sup> | Community Verified |
-| AYANEO | 2 | Unsponsored |
+| AYANEO | 2 | Community Verified |
 | AYANEO | 2021 / Pro / Retro Power | Unsponsored |
 | AYANEO | 2S <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | Air / Air Pro | [Fewtarius](https://github.com/fewtarius) |
@@ -19,7 +19,7 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | AYANEO | Founder Edition | Unsponsored |
 | AYANEO | Geek | Unsponsored |
 | AYANEO | Next, Next Pro | Community Verified |
-| AYANEO | Slide <sup>2</sup> | Community Verified |
+| AYANEO | Slide <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | Ayn | Loki Max | [Fewtarius](https://github.com/fewtarius) |
 | Ayn | Loki Zero | Community Verified |
 | GPD | Win 4 | [anthonycaccese](https://github.com/anthonycaccese) |
