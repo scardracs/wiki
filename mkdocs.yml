@@ -80,6 +80,8 @@ nav:
       - devices/index.md
       - Atari:
         - VCS: devices/atari/vcs.md
+      - Antec:
+        - Core HS: devices/antec/core-hs.md
       - AYANEO:
         - 2/2s: devices/ayaneo/ayaneo-2.md
         - Air / Air Pro: devices/ayaneo/air.md

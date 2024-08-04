@@ -1,4 +1,4 @@
-# AYANEO Slide
+# Antec Core HS
 
 ![](../../_inc/images/devices/ayaneo-slide.png){ .off-glb }
 
