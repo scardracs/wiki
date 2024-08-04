@@ -18,7 +18,7 @@ All software listed below is available for installation via desktop mode.  Flatp
 ### Streaming
 |Software|Description|Installation Source|
 |----|----|----|
-|SetupStreamingServices|Configure a variety of streaming services|[SteamFork Project](https://github.com/SteamFork/SetupStreamingServices)|
+|SetupStreamingServices|Configure a variety of streaming services|Configure using the "Setup Streaming" icon available in desktop mode.|
 
 ### Emulators
 |Software|Format|Description|
@@ -34,10 +34,12 @@ All software listed below is available for installation via desktop mode.  Flatp
 |**Xemu**|Flatpak|An Xbox emulator|
 
 ### Decky Plugins
+[Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) is required to use the plugins below.  It is automatically installed when installing plugins using the "Setup Helpers" tool which is available in Desktop mode.
+
 |Plugin|Description|Installation Source|
 |----|----|----|
-|**FanControl**|Fan control plugin (Disable steamfork-fancontrol on Ayn/Ayaneo)|[SteamFork Project](https://github.com/SteamFork/FanControl/releases)|
-|**HueSync**|RGB control plugin|[HueSync Project](https://github.com/honjow/HueSync)|
+|**FanControl**|Fan control plugin (replaces built-in fan management)|Configure using the "Setup Helpers" icon available in desktop mode.|
+|**HueSync**|RGB control plugin|Configure using the "Setup Helpers" icon available in desktop mode.|
 |**MusicControl**|A music player control plugin|Install using Decky Plugin Browser|
-|**SimpleDeckyTDP**|CPU/GPU/TDP management utility|[SteamFork Project](https://github.com/SteamFork/SimpleDeckyTDP/releases)|
+|**SimpleDeckyTDP**|CPU/GPU/TDP management utility|Configure using the "Setup Helpers" icon available in desktop mode.|
 |**SteamGridDB**|Artwork downloader for SteamOS|Install using Decky Plugin Browser|
