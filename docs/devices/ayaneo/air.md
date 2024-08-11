@@ -48,5 +48,6 @@ pactl load-module module-remap-sink sink_name=remap_FL master=$master channels=1
 pactl load-module module-combine-sink sink_name='"AYANEO AIR Fixed Phase Audio"' sink_properties=device.description='"AYANEO_AIR_Fixed_Phase_Audio"' slaves=remap_FL,remap_FR channels=2
 EOF
 
+chmod 0755 ${CUSTDIR}
 ### Reboot the device to activate, or execute ${CUSTDIR}/audio-phase-fix.sh
 ```
