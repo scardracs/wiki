@@ -75,8 +75,8 @@ Select the last known good root filesystem.  If you're unsure, use the `steamfor
 If your system does not boot, boot from live installation media and open `Konsole`.  Mount the roofs volume, use the `btrfs` command to remove the broken root volume and then upgrade using the `Upgrade SteamFork` desktop icon to update.
 
 ```
-# Use blkid to find the sf_root partition.
-sudo blkid, for example NVMe users may find it on /dev/nvme0n1p2.  Update the mount command below with your partition.
+# Use blkid to find the sf_root partition. For example NVMe users may find it on /dev/nvme0n1p2.  Update the mount command below with your partition.
+sudo blkid
 sudo mount /dev/nvme0n1p2 /mnt
 # Update the command below for the version of SteamFork to remove.  Use ls /mnt/rootfs/ to list available volumes.
 sudo btrfs subvolume delete /mnt/rootfs/steamfork_rel_20240812.0916
