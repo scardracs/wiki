@@ -67,6 +67,7 @@ plugins:
 nav:
     - Home: index.md
     - FAQs: faqs.md
+    - Troubleshooting: troubleshooting.md
     - Play:
       - Install: play/install.md
       - Software: play/verified-software.md 
