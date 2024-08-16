@@ -89,7 +89,7 @@ sudo umount /mnt
 
 > :warning: **Warning**
 >
-> The following tool has been known to brick devices even by reading values in the BIOS. There is a good chance that setting something incorrectly in the BIOS with this tool will brick your device and void your warranty. This article is posted for informational purposes only and ChimeraOS makes no recommendation to utilize this information and takes no responsibility for any harm caused by following these steps. By following this guide you acknowledge that you are solely responsible for the outcome.
+> The Smokeless UMAF tool has been known to brick devices even by reading values in the BIOS. There is a good chance that setting something incorrectly in the BIOS with this tool will brick your device and void your warranty. This article is posted for informational purposes only.  SteamFork takes no responsibility for any harm caused by following these steps. By following this guide you acknowledge that you are solely responsible for the outcome.
 
 #### Enable Modern Standby
 1. First enter your firmware to see if you have the options listed in the steps below.  If so, skip creating the Smokeless UMAF USB stick.
