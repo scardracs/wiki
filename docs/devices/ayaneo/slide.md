@@ -25,7 +25,6 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 ### Known Issues
 
-* An unknown issue exists that causes the device to reboot unexpectedly.  There is no notification or panic log.
 * When Modern Standby is enabled, the power button does not send events to the OS.  Sleep works with Modern Standby + Si02 when selected from the Steam interface.
 
 ### Booting from an external drive (USB or SD Card)
