@@ -92,9 +92,7 @@ sudo umount /mnt
 > The Smokeless UMAF tool has been known to brick devices even by reading values in the BIOS. There is a good chance that setting something incorrectly in the BIOS with this tool will brick your device and void your warranty. This article is posted for informational purposes only.  SteamFork takes no responsibility for any harm caused by following these steps. By following this guide you acknowledge that you are solely responsible for the outcome.
 
 #### Modern Standby Enablement Methods
-* First enter your firmware to see if you have the options listed in the steps below.  If so, skip creating the Smokeless UMAF USB stick.
-The first step is to create a UEFI compatible EFI bootloader on a USB drive.
-
+* Enter your firmware settings to see if you have the options listed in the steps in the next section.  If so, skip the rest of this section..
 * If the options are not available, follow the next few steps to create boot media.
   * Format a USB stick with FAT32.
   * Download [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF/raw/main/UMAF_BETA.zip).
