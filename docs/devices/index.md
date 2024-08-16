@@ -27,20 +27,16 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 
 !!! info
     - 1. Sponsored devices are fully supported by its maintainer.  Support for unsponsored and community verified devices may vary.<br>
-    - 2. New AMD 7000 series devices do not support S3 sleep due to an incorrect firmware setting.  This setting is locked down and must be enabled using a third party helper.  Follow the process from [ChimeraOS](https://github.com/ChimeraOS) to enable sleep [ [here](https://github.com/ChimeraOS/chimeraos/wiki/Community-Guides#enabling-modern-sleep-on-7000-series-amd-hardware) ].
+    - 2. New AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.  This setting is locked down on many Ayaneo devices and must be enabled using a third party helper.  Follow the [process on the Wiki](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) to configure your device.
 
 ## Sponsoring a device
 
+### Sponsorship
 Sponsoring a device is a commitment to maintaining support for your device by validating, testing, and bugfixing any issues that may arise.  Adding support for a device's basic features is straight forward, however, it can become far more technical to add support for features such as fan control.  If you are interested in sponsoring your device, follow the process below.
 
 1. Create a GitHub account if you do not already have one.
-2. Boot the SteamFork live image.
-3. Create a device quirk using the quirk generator included.  Minimum requirements are gamescope resolution, and rotation if needed.
-```
-$ sudo -s
-# steamfork-quirk-generator --help
-```
+2. Boot the SteamFork installation image.
+3. Create a device quirk using the [quirk creation tool](https://wiki.steamfork.org/contribute/quirks/) included with the distribution.  Minimum requirements are gamescope resolution, and rotation if needed.
 4. Create a pull request to the [SteamFork Device Support](https://github.com/SteamFork/distribution/tree/main/PKGBUILD/steamfork-device-support) package with your new addition.
 5. Open and take ownership of any issues specific to your device on the [SteamFork Bug Tracker](https://github.com/SteamFork/bugtracker).
 6. When ready to begin sunsetting support for your device, generate and PR new quirk with the `--supported false` property.
-
