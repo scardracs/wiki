@@ -82,3 +82,30 @@ sudo mount /dev/nvme0n1p2 /mnt
 sudo btrfs subvolume delete /mnt/rootfs/steamfork_rel_20240812.0916
 sudo umount /mnt
 ```
+
+### Enabling Modern Sleep on 7000 Series AMD based devices.
+
+7000 series and newer AMD APU's no longer support S3 sleep, and unfortunately many handheld manufacturers don't configure their firmware to take advantage of modern standby by default.  Fortunately, modern standby can be configured manually in firmware, or by using a helper.
+
+> :warning: **Warning**
+>
+> The following tool has been known to brick devices even by reading values in the BIOS. There is a good chance that setting something incorrectly in the BIOS with this tool will brick your device and void your warranty. This article is posted for informational purposes only and ChimeraOS makes no recommendation to utilize this information and takes no responsibility for any harm caused by following these steps. By following this guide you acknowledge that you are solely responsible for the outcome.
+
+#### Enable Modern Standby
+1. First enter your firmware to see if you have the options listed in the steps below.  If so, skip creating the Smokeless UMAF USB stick.
+The first step is to create a UEFI compatible EFI bootloader on a USB drive.
+
+2. If the options are not available, follow the next few steps to create boot media.
+  * Format a USB stick with FAT32.
+  * Download [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF/raw/main/UMAF_BETA.zip).
+  * Extract `UMAF_Beta.zip` and copy the contents into the root of the usb stick.
+  * Boot your device and select the USB stick from the boot menu.
+  * Navigate to the `Front Page` tab and select `Device Manager`.
+
+3. Select `AMD PBS` then `Power Saving Configurations`.
+6. Under `S3/Modern Standby Support` change the entry to `Modern Standby` (or `Modern Standby Enable` on some devices).
+7. Under `Modern Standby Type` select `Modern Standby + S0i2 + S0i3`.
+8. Save changes and exit, allowing the device to reboot.
+
+> Note: The first restart after this change may take longer than usual.  Thanks to ChimeraOS for the [initial writeup](https://github.com/ChimeraOS/chimeraos/wiki/Community-Guides#enabling-modern-sleep-on-7000-series-amd-hardware) of this section.
+
