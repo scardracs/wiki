@@ -6,6 +6,7 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 
 | Manufacturer | Product | Sponsor <sup>1</sup> |
 | -- | -- | -- |
+| Anbernic | Win600 | [uejji](https://github.com/uejji) |
 | ANTEC | Core HS <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | Atari | VCS | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | 1S <sup>2</sup> | Community Verified |
