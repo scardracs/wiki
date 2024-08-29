@@ -51,3 +51,7 @@ EOF
 chmod 0755 ${CUSTDIR}
 ### Reboot the device to activate, or execute ${CUSTDIR}/audio-phase-fix.sh
 ```
+
+### Known Issues
+
+* The display does not always turn on when powering the device on or switching to desktop mode.  Putting it to sleep and waking it up again will resolve it.
