@@ -79,10 +79,12 @@ nav:
       - Quirks: contribute/quirks.md
     - Devices: 
       - devices/index.md
-      - Atari:
-        - VCS: devices/atari/vcs.md
+      - Anbernic:
+        - Win600: devices/anbernic/win600.md
       - Antec:
         - Core HS: devices/antec/core-hs.md
+      - Atari:
+        - VCS: devices/atari/vcs.md
       - AYANEO:
         - 2/2s: devices/ayaneo/ayaneo-2.md
         - Air / Air Pro: devices/ayaneo/air.md
