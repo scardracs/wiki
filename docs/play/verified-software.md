@@ -42,4 +42,5 @@ All software listed below is available for installation via desktop mode.  Flatp
 |**HueSync**|RGB control plugin|Configure using the "Setup Helpers" icon available in desktop mode.|
 |**MusicControl**|A music player control plugin|Install using Decky Plugin Browser|
 |**SimpleDeckyTDP**|CPU/GPU/TDP management utility|Configure using the "Setup Helpers" icon available in desktop mode.|
+|**DeckyPlumber**|A plugin to switch controller types to enable use of the Gyro.|Configure using the "Setup Helpers" icon available in desktop mode.|
 |**SteamGridDB**|Artwork downloader for SteamOS|Install using Decky Plugin Browser|
