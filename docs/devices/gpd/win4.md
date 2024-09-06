@@ -10,7 +10,7 @@
 | :material-wifi: Wifi | Can be turned on in Steam OS under Main Menu > Network. |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers .|
 | :material-fan: Fan | Requires the [FanControl](https://github.com/SteamFork/FanControl/releases) plugin.|
-| :material-lightning-bolt-circle: TPD Limit | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
+| :material-lightning-bolt-circle: TDP Limit | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 
 ## Notes

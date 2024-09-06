@@ -83,6 +83,8 @@ nav:
         - Win600: devices/anbernic/win600.md
       - Antec:
         - Core HS: devices/antec/core-hs.md
+      - ASUS:
+        - ROG Ally / Ally X: devices/asus/rog-ally.md
       - Atari:
         - VCS: devices/atari/vcs.md
       - AYANEO:
