@@ -2,6 +2,9 @@
 
 ## Solutions for Common Issues
 
+### Lower Game Performance After September Steam Client Update
+The September 2024 Steam client update introduced a new feature allowing users to configure the Maximum Game Resolution (Settings / Display) which now defaults to the native resolution of your display.  With this change the Steam client is ignoring the 720P or 800P game resolitution normally configured by SteamFork.  To work around the issue, simply configure your game properties back to either 720P or 800P.  Unfortunately, this must be done on a per game basis.
+
 ### Unknown Trust
 
 SteamFork is SteamOS (Arch) based which uses the `pacman` package manager, and the repository and the packages contained within it are signed.  Although the distribution is immutable, the platform does allow users to temporarily disable the read only rootfs to update packages between releases if desired.  If you receive an unknown trust error while using pacman, issue the following commands to rebuild the trust database.
