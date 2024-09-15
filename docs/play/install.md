@@ -1,6 +1,6 @@
 # :material-progress-check: Installing SteamFork
 
-!!! info "SteamFork only supports devices with AMD APU/GPUs."
+!!! info "SteamFork is compatible with Intel and AMD based systems.  NVidia GPUs are not supported."
 
 SteamFork is installed by downloading an image, flashing it to an SD Card or USB Drive and then booting your device to run the SteamFork Live image.
 
