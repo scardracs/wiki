@@ -5,7 +5,7 @@ All software listed below is available for installation via desktop mode.  Flatp
 ### Software
 |Software|Format|Description|
 |----|----|----|
-|**Cider**|Flatpak|Apple Music Player|
+|**Cider**|Flatpak|Apple Music Player **Note:** [Requires configuration](https://github.com/ciderapp/Cider-2/issues/666#issuecomment-2156450278)|
 |**Discord**|Flatpak|Messaging, Voice, and Video Client|
 |**Firefox**|Flatpak|The Firefox Web Browser|
 |**Google Chrome**|Flatpak|The Google Chrome Browser|
