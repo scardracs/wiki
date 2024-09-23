@@ -24,7 +24,7 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 ### Known Issues
 
-* On ROG Ally X `/sys/devices/virtual/firmware-attributes/asus-armoury/attributes/mcu_powersave` may need to be set to `0` if resume is unreliable (noteable by the gamepad not being active). Often a 2nd sleep/resume will fix it.
+* Some community members have been working with ASUS to solve the issue around Ally 1 and X having sometimes a faulty resume where the LED device of gamepad is missing. The fix has been found and is solved permanently in firmware which means bandaid hacks in the kernel can be dropped. This firmware is going through the release process now and will become available soon. To update your device you will require Windows (such as dual boot, or on a USB drive). There is an effort underway to reverse engineer the update protocol for use with fwupd.
 
 ### Booting from an external drive (USB or SD Card)
 
