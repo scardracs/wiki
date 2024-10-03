@@ -6,30 +6,31 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 
 | Manufacturer | Product | Sponsor <sup>1</sup> |
 | -- | -- | -- |
-| Anbernic | Win600 | [uejji](https://github.com/uejji) |
-| ANTEC | Core HS <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
-| ASUS | ROG Ally / Ally X | [flukejones](https://github.com/flukejones) |
-| Atari | VCS | [Fewtarius](https://github.com/fewtarius) |
+| Anbernic | [Win600](anbernic/win600) | [uejji](https://github.com/uejji) |
+| ANTEC | [Core HS](antec/core-hs) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
+| ASUS | [ROG Ally / Ally X](asus/rog-ally) | [flukejones](https://github.com/flukejones) |
+| Atari | [VCS](atari/vcs) | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | 1S <sup>2</sup> | Community Verified |
-| AYANEO | 2 | Community Verified |
+| AYANEO | [2](ayaneo/ayaneo-2) | Community Verified |
 | AYANEO | 2021 / Pro / Retro Power | Unsponsored |
-| AYANEO | 2S <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
-| AYANEO | Air / Air Pro | [Fewtarius](https://github.com/fewtarius) |
-| AYANEO | Air Plus | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | [2S](ayaneo/ayaneo-2) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | [Air / Air Pro](ayaneo/air) | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | [Air Plus](ayaneo/air-plus) | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | Flip DS <sup>2</sup> | Unsponsored |
-| AYANEO | Flip KB <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | [Flip KB](ayaneo/flip) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | Founder Edition | Unsponsored |
-| AYANEO | Geek | Unsponsored |
+| AYANEO | Geek | Community Verified, thanks to [alexapple79](https://www.youtube.com/watch?v=4iBE-PUC_0Y) |
 | AYANEO | Next, Next Pro | Community Verified |
-| AYANEO | Slide <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
-| Ayn | Loki Max | [Fewtarius](https://github.com/fewtarius) |
-| Ayn | Loki Zero | Community Verified |
-| GPD | Win 4 | [anthonycaccese](https://github.com/anthonycaccese) |
+| AYANEO | [Slide](ayaneo/slide) <sup>2,3</sup> | [Fewtarius](https://github.com/fewtarius) |
+| Ayn | [Loki Max](ayn/loki-max) | [Fewtarius](https://github.com/fewtarius) |
+| Ayn | [Loki Zero](ayn/loki-zero) | Community Verified |
+| GPD | [Win 4](gpd/win4) | [anthonycaccese](https://github.com/anthonycaccese) |
 | GPD | Win Mini | Community Verified |
 
 !!! info
-    - 1. Sponsored devices are fully supported by its maintainer.  Support for unsponsored and community verified devices may vary.<br>
-    - 2. New AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.  This setting is locked down on many Ayaneo devices and must be enabled using a third party helper.  Follow the [process on the Wiki](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) to configure your device.
+    1. Sponsored devices are fully supported by its maintainer.  Support for unsponsored and community verified devices may vary.
+    2. New AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.  This setting is locked down on many Ayaneo devices and must be enabled using a third party helper.  Follow the [process on the Wiki](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) to configure your device.
+    3. Support for these devices is still a work in progress. Expect bugs or incomplete/missing features as support is being added. Refer to the specific device's page for more information.
 
 ## Sponsoring a device
 
