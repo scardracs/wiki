@@ -1,4 +1,4 @@
-# AYANEO 2s
+# AYANEO 2S
 
 ![](../../_inc/images/devices/ayaneo-2s.png){ .off-glb }
 

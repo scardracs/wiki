@@ -1,4 +1,4 @@
-# AYANEO Flip
+# AYANEO Flip KB
 
 ![](../../_inc/images/devices/ayaneo-flip-kb.png){ .off-glb }
 

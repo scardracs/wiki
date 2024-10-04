@@ -20,8 +20,10 @@
 
 | Button | Function |
 | -- | -- |
-| ++"MSI Center"++ | :material-microsoft-xbox: ++"Guide"++ |
+| ++"MSI Center"++ | :material-microsoft-xbox: ++"Guide"++ (Steam Menu) |
 | ++"Quick Settings"++ | :material-microsoft-xbox: ++"Guide"++ + :material-gamepad-circle-down: ++"A"++ (Quick Access Menu) |
+| ++"M1"++ | :material-gamepad-circle-down: ++"A"++ |
+| ++"M2"++ | :material-gamepad-circle-right: ++"B"++ |
 
 ## Notes
 
