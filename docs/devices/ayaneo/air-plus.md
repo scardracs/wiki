@@ -1,3 +1,5 @@
+title: AYANEO Air Plus
+
 # AYANEO Air Plus
 
 ![](../../_inc/images/devices/ayaneo-air-plus.png){ .off-glb }

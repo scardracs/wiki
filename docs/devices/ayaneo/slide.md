@@ -1,3 +1,5 @@
+title: AYANEO Slide
+
 # AYANEO Slide
 
 ![](../../_inc/images/devices/ayaneo-slide.png){ .off-glb }

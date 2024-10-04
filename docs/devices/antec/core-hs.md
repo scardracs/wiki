@@ -1,3 +1,5 @@
+title: Antec Core HS
+
 # Antec Core HS
 
 ![](../../_inc/images/devices/ayaneo-slide.png){ .off-glb }

@@ -1,3 +1,5 @@
+title: Device Support
+
 # :material-television: Device Support
 
 ## Tested devices

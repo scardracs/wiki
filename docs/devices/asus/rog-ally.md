@@ -1,3 +1,5 @@
+title: ASUS ROG Ally / Ally X
+
 # ASUS ROG Ally / Ally X
 
 ![](../../_inc/images/devices/asus-rog-ally.png){ .off-glb }

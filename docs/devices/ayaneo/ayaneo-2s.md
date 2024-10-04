@@ -1,3 +1,5 @@
+title: AYANEO 2S
+
 # AYANEO 2S
 
 ![](../../_inc/images/devices/ayaneo-2s.png){ .off-glb }

@@ -1,3 +1,5 @@
+title: MSI Claw A1M
+
 # MSI Claw A1M
 
 ![](../../_inc/images/devices/msi-claw.png){ .off-glb }

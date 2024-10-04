@@ -1,3 +1,5 @@
+title: Ayn Loki Max
+
 # Ayn Loki Max
 
 ![](../../_inc/images/devices/ayn-loki.png){ .off-glb }

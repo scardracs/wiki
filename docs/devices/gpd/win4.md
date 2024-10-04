@@ -1,3 +1,5 @@
+title: GPD Win 4
+
 # GPD Win 4
 
 ![](../../_inc/images/devices/gpdwin-4.png){ .off-glb }
