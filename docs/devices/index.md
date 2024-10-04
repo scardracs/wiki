@@ -26,6 +26,7 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | Ayn | [Loki Zero](ayn/loki-zero) | Community Verified |
 | GPD | [Win 4](gpd/win4) | [anthonycaccese](https://github.com/anthonycaccese) |
 | GPD | Win Mini | Community Verified |
+| MSI | [Claw A1M](msi/claw-a1m) <sup>3</sup> | [uejji](https://github.com/uejji) |
 
 !!! info
     1. Sponsored devices are fully supported by its maintainer.  Support for unsponsored and community verified devices may vary.
