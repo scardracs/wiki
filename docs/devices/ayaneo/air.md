@@ -1,3 +1,5 @@
+title: AYANEO Air / Air Pro
+
 # AYANEO Air / Air Pro
 
 ![](../../_inc/images/devices/ayaneo-air.png){ .off-glb }

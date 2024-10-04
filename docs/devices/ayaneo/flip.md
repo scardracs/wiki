@@ -1,6 +1,12 @@
-# AYANEO Flip
+title: AYANEO Flip KB
+
+# AYANEO Flip KB
 
 ![](../../_inc/images/devices/ayaneo-flip-kb.png){ .off-glb }
+
+!!!info
+    New AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.
+    Follow the [process on the Wiki](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) to configure your device.
 
 ## Features
 

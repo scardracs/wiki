@@ -1,6 +1,16 @@
+title: AYANEO Slide
+
 # AYANEO Slide
 
 ![](../../_inc/images/devices/ayaneo-slide.png){ .off-glb }
+
+!!! warning
+    Support for this device is still a work in progress. Expect bugs or incomplete/missing features as support is being added.
+    Refer to the [Known Issues](#known-issues) section for more information.
+
+!!!info
+    New AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.
+    Follow the [process on the Wiki](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) to configure your device.
 
 ## Features
 

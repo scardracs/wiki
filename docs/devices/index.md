@@ -1,3 +1,5 @@
+title: Device Support
+
 # :material-television: Device Support
 
 ## Tested devices
@@ -7,23 +9,20 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | Manufacturer | Product | Sponsor <sup>1</sup> |
 | -- | -- | -- |
 | Anbernic | [Win600](anbernic/win600) | [uejji](https://github.com/uejji) |
-| ANTEC | [Core HS](antec/core-hs) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
+| ANTEC | [Core HS](antec/core-hs) <sup>2,3</sup> | [Fewtarius](https://github.com/fewtarius) |
 | ASUS | [ROG Ally / Ally X](asus/rog-ally) | [flukejones](https://github.com/flukejones) |
 | Atari | [VCS](atari/vcs) | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | 1S <sup>2</sup> | Community Verified |
-| AYANEO | [2](ayaneo/ayaneo-2) | Community Verified |
-| AYANEO | 2021 / Pro / Retro Power | Unsponsored |
-| AYANEO | [2S](ayaneo/ayaneo-2) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | 2 | Community Verified |
+| AYANEO | [2S](ayaneo/ayaneo-2s) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | [Air / Air Pro](ayaneo/air) | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | [Air Plus](ayaneo/air-plus) | [Fewtarius](https://github.com/fewtarius) |
-| AYANEO | Flip DS <sup>2</sup> | Unsponsored |
 | AYANEO | [Flip KB](ayaneo/flip) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
-| AYANEO | Founder Edition | Unsponsored |
-| AYANEO | Geek | Community Verified, thanks to [alexapple79](https://www.youtube.com/watch?v=4iBE-PUC_0Y) |
+| AYANEO | Geek | Community Verified by [alexapple79](https://www.youtube.com/watch?v=4iBE-PUC_0Y) |
 | AYANEO | Next, Next Pro | Community Verified |
 | AYANEO | [Slide](ayaneo/slide) <sup>2,3</sup> | [Fewtarius](https://github.com/fewtarius) |
 | Ayn | [Loki Max](ayn/loki-max) | [Fewtarius](https://github.com/fewtarius) |
-| Ayn | [Loki Zero](ayn/loki-zero) | Community Verified |
+| Ayn | Loki Zero | Community Verified |
 | GPD | [Win 4](gpd/win4) | [anthonycaccese](https://github.com/anthonycaccese) |
 | GPD | Win Mini | Community Verified |
 | MSI | [Claw A1M](msi/claw-a1m) <sup>3</sup> | [uejji](https://github.com/uejji) |

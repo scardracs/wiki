@@ -1,3 +1,5 @@
+title: Atari VCS
+
 # Atari VCS
 
 ![](../../_inc/images/devices/atari-vcs.png){ .off-glb }

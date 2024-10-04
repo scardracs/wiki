@@ -1,27 +1,36 @@
+title: MSI Claw A1M
+
+<style>
+  .nowrap {white-space: nowrap;}
+</style>
+
 # MSI Claw A1M
 
 ![](../../_inc/images/devices/msi-claw.png){ .off-glb }
 
 !!! warning
     Support for this device is still a work in progress. Expect bugs or incomplete/missing features as support is being added.
+    Refer to the [Known Issues](#known-issues) section for more information.
 
 ## Features
 
 | Feature | Notes |
 | -- | -- |
-| :material-harddisk: Storage | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
+| <span class="nowrap">:material-harddisk: Storage</span> | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
 | :material-wifi: Wifi | Can be turned on in Steam OS under Main Menu > Network. |
-| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers. |
+| <span class="nowrap">:simple-bluetooth:Bluetooth</span> | Supports bluetooth audio and controllers. |
 | :material-fan: Fan | Controlled by system firmware. |
-| :material-lightning-bolt-circle: TDP Limit | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin. |
-| :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
+| <span class="nowrap">:material-lightning-bolt-circle: TDP Limit</span> | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin. |
+| <span class="nowrap">:material-vibrate: Rumble</span> | Enables the device rumble motor in emulators that support it. |
 
 ### Function Buttons
 
 | Button | Function |
 | -- | -- |
-| ++"MSI Center"++ | :material-microsoft-xbox: ++"Guide"++ |
-| ++"Quick Settings"++ | :material-microsoft-xbox: ++"Guide"++ + :material-gamepad-circle-down: ++"A"++ (Quick Access Menu) |
+| ++"MSI Center"++ | <span class="nowrap">:material-microsoft-xbox: ++"Guide"++</span> (Steam Menu) |
+| <span class="nowrap">++"Quick Settings"++</span> | <span class="nowrap">:material-microsoft-xbox: ++"Guide"++</span> + <span class="nowrap">:material-gamepad-circle-down: ++"A"++</span> (Quick Access Menu) |
+| ++"M1"++ | <span class="nowrap">:material-gamepad-circle-down: ++"A"++</span> |
+| ++"M2"++ | <span class="nowrap">:material-gamepad-circle-right: ++"B"++</span> |
 
 ## Notes
 
@@ -46,9 +55,10 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 In order to boot SteamFork, Secure Boot will need to be disabled.
 
-Power on the device and hold ++"RB"+"RT"++ until the BIOS appears.
-Using the :material-gamepad-round: ++"D-pad"++ and :material-gamepad-circle-down: ++"A"++ or the touchscreen, navigate to `Security`, select `Secure Boot`, `Secure Boot Support` and select `Disabled`.
-Afterwards, navigate `Save & Exit` and select `Save Changes and Reset`.
+Power on the device and hold <span class="nowrap">++"RB"+"RT"++</span> until the BIOS appears.
+Using the <span class="nowrap">:material-gamepad-round: ++"D-pad"++</span> and <span class="nowrap">:material-gamepad-circle-down: ++"A"++</span> or the touchscreen,
+navigate to `Security`, select <span class="nowrap">`Secure Boot`</span>, <span class="nowrap">`Secure Boot Support`</span> and select `Disabled`.
+Afterwards, navigate to <span class="nowrap">`Save & Exit`</span> and select <span class="nowrap">`Save Changes and Reset`</span>.
 
-Once Secure Boot is disabled, power on the device and hold ++"LB"+"RB"++ until the Boot Menu appears.
-Using the :material-gamepad-round: ++"D-pad"++ and :material-gamepad-circle-down: ++"A"++ or the touchscreen, select the storage device with SteamFork to boot the distribution.
+Once Secure Boot is disabled, power on the device and hold <span class="nowrap">++"LB"+"RB"++</span> until the Boot Menu appears.
+Using the <span class="nowrap">:material-gamepad-round: ++"D-pad"++</span> and <span class="nowrap">:material-gamepad-circle-down: ++"A"++</span> or the touchscreen, select the storage device with SteamFork to boot the distribution.
