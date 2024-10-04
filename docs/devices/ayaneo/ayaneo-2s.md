@@ -1,6 +1,6 @@
-# AYANEO 2/2s
+# AYANEO 2s
 
-![](../../_inc/images/devices/ayaneo-2.png){ .off-glb }
+![](../../_inc/images/devices/ayaneo-2s.png){ .off-glb }
 
 ## Features
 
