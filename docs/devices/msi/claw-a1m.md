@@ -4,6 +4,7 @@
 
 !!! warning
     Support for this device is still a work in progress. Expect bugs or incomplete/missing features as support is being added.
+    Refer to the [Known Issues](#known-issues) section for more information.
 
 ## Features
 
