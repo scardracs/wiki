@@ -1,5 +1,11 @@
 title: AYANEO Flip KB
 
+<style>
+  code {white-space: nowrap;}
+  kbd {white-space: nowrap;}
+  no-wrap {white-space: nowrap;}
+</style>
+
 # AYANEO Flip KB
 
 ![](../../_inc/images/devices/ayaneo-flip-kb.png){ .off-glb }
@@ -10,21 +16,21 @@ title: AYANEO Flip KB
 
 ## Features
 
-| Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
+| Feature | Notes |
 | -- | -- |
-| :material-harddisk: Storage | SteamFork can be run from a USB Drive or installed directly to the internal NVME. 
-| :material-wifi: Wifi | Can be turned on in Steam OS under Main Menu > Network Settings. |
-| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers. |
-| :material-fan: Fan | Controlled by system firmware. |
-| :material-lightning-bolt-circle: TDP Limit | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
-| :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
+| <no-wrap>:material-harddisk: Storage</no-wrap> | SteamFork can be run from a USB Drive or installed directly to the internal NVME. 
+| <no-wrap>:material-wifi: Wifi</no-wrap> | Can be turned on in Steam OS under `Main Menu` > `Network Settings`. |
+| <no-wrap>:simple-bluetooth: Bluetooth</no-wrap> | Supports bluetooth audio and controllers. |
+| <no-wrap>:material-fan: Fan</no-wrap> | Controlled by system firmware. |
+| <no-wrap>:material-lightning-bolt-circle: TDP Limit</no-wrap> | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
+| <no-wrap>:material-vibrate: Rumble</no-wrap> | Enables the device rumble motor in emulators that support it. |
 
 ### Function Buttons
 
 | Button | Function |
 | -- | -- |
-| ++"Aya"++ | :material-microsoft-xbox: ++"Guide"++ (Steam Menu) |
-| ++"="++ | :material-microsoft-xbox: ++"Guide"++ + :material-gamepad-circle-down: ++"A"++ (Quick Access Menu) |
+| ++"Aya"++ | <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap> |
+| <kbd>:material-equal:</kbd> | <no-wrap><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd></no-wrap> <no-wrap>(`Quick Access Menu`)</no-wrap> |
 | ++"LC"++ | ++"L4"++ |
 | ++"RC"++ | ++"R4"++ |
 
@@ -44,6 +50,6 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 ### Booting from an external drive (USB or SD Card)
 
-To boot SteamFork from an external drive, hold ++"LC"+"Volume Up"++ and press :material-power: ++"Power"++ ,
-continue holding ++"LC"+"Volume Up"++ until the Ayaneo logo appears.
-Select the storage device with SteamFork from the boot menu using the ++"Ayaneo"++ button, and then press ++"Volume Up"++ to boot the distribution.
+To boot SteamFork from an external drive, hold <no-wrap>++"LC"++ + <kbd>:material-plus: Volume Up</kbd></no-wrap> and press <kbd>:material-power: Power</kbd> ,
+continue holding <no-wrap>++"LC"++ + <kbd>:material-plus: Volume Up</kbd></no-wrap> until the Ayaneo logo appears.
+Select the storage device with SteamFork from the boot menu using the ++"Ayaneo"++ button, and then press <kbd>:material-plus: Volume Up</kbd> to boot the distribution.

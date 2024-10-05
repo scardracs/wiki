@@ -1,27 +1,33 @@
 title: AYN Loki Max
 
+<style>
+  code {white-space: nowrap;}
+  kbd {white-space: nowrap;}
+  no-wrap {white-space: nowrap;}
+</style>
+
 # AYN Loki Max
 
 ![](../../_inc/images/devices/ayn-loki.png){ .off-glb }
 
 ## Features
 
-| Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
+| Feature | Notes |
 | -- | -- |
-| :material-harddisk: Storage | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
-| :material-wifi: Wifi | Can be turned on in Steam OS under Main Menu > Network Settings. |
-| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers. |
-| :material-fan: Fan | Managed automatically. |
-| :material-lightning-bolt-circle: TDP Limit | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
-| :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
-| :material-lightbulb-on: RGB |Disabled on startup. Requires the [HueSync](https://github.com/honjow/HueSync) plugin for additional RGB control.|
+| <no-wrap>:material-harddisk: Storage</no-wrap> | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
+| <no-wrap>:material-wifi: Wifi</no-wrap> | Can be turned on in Steam OS under `Main Menu` > `Network Settings`. |
+| <no-wrap>:simple-bluetooth: Bluetooth</no-wrap> | Supports bluetooth audio and controllers. |
+| <no-wrap>:material-fan: Fan</no-wrap> | Managed automatically. |
+| <no-wrap>:material-lightning-bolt-circle: TDP Limit</no-wrap> | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
+| <no-wrap>:material-vibrate: Rumble</no-wrap> | Enables the device rumble motor in emulators that support it. |
+| <no-wrap>:material-lightbulb-on: RGB</no-wrap> |Disabled on startup. Requires the [HueSync](https://github.com/honjow/HueSync) plugin for additional RGB control.|
 
 ### Function Buttons
 
 | Button | Function |
 | -- | -- |
-| ++"Home"++ | :material-microsoft-xbox: ++"Guide"++ (Steam Menu) |
-| ++"LCC (Turbo)"++ | :material-microsoft-xbox: ++"Guide"++ + :material-gamepad-circle-down: ++"A"++ (Quick Access Menu) |
+| ++"Home"++ | <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap> |
+| ++"LCC (Turbo)"++ | <no-span><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd></no-span> <no-wrap>(`Quick Access Menu`)</no-wrap> |
 | ++"M1"++ | ++"R3"++ |
 | ++"M2"++ | ++"L3"++ |
 
@@ -38,6 +44,6 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 In order to launch SteamFork from an external drive you will need to first change the boot order in the BIOS.
 
-During boot you can enter the bios by either (1) holding the ++"Home"+"LCC (Turbo)"++ buttons that sit bellow the dpad and right analog stick OR (2) connecting an external keyboard and pressing the ++del++ key.
+During boot you can enter the bios by either (1) holding the <no-wrap>++"Home"+"LCC (Turbo)"++</no-wrap> buttons that sit bellow the dpad and right analog stick OR (2) connecting an external keyboard and pressing the ++del++ key.
 
-In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card or USB Drive under `Boot Order Priorities`. Then go `Save & Exit` and select the Save Changes and Exit option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.
+In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card or USB Drive under `Boot Order Priorities`. Then go `Save & Exit` and select the `Save Changes and Exit` option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.

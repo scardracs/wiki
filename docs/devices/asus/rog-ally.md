@@ -1,5 +1,11 @@
 title: ASUS ROG Ally / Ally X
 
+<style>
+  code {white-space: nowrap;}
+  kbd {white-space: nowrap;}
+  no-wrap {white-space: nowrap;}
+</style>
+
 # ASUS ROG Ally / Ally X
 
 ![](../../_inc/images/devices/asus-rog-ally.png){ .off-glb }
@@ -9,21 +15,21 @@ title: ASUS ROG Ally / Ally X
 
 ## Features
 
-| Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
+| Feature | Notes |
 | -- | -- |
-| :material-harddisk: Storage | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
-| :material-wifi: Wifi | Can be turned on in Steam OS under Main Menu > Network. |
-| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers .|
-| :material-fan: Fan | Managed by system firmware. |
-| :material-lightning-bolt-circle: TDP Limit | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
-| :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
+| <no-wrap>:material-harddisk: Storage</no-wrap> | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
+| <no-wrap>:material-wifi: Wifi</no-wrap> | Can be turned on in Steam OS under `Main Menu` > `Network`. |
+| <no-wrap>:simple-bluetooth: Bluetooth</no-wrap> | Supports bluetooth audio and controllers .|
+| <no-wrap>:material-fan: Fan</no-wrap> | Managed by system firmware. |
+| <no-wrap>:material-lightning-bolt-circle: TDP Limit</no-wrap> | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
+| <no-wrap>:material-vibrate: Rumble</no-wrap> | Enables the device rumble motor in emulators that support it. |
 
 ### Function Buttons
 
 | Button | Function |
 | -- | -- |
-| ++"Command Center"++ | :material-microsoft-xbox: ++"Guide"++ (Steam Menu) |
-| ++"Armoury Crate"++ | :material-microsoft-xbox: ++"Guide"++ + :material-gamepad-circle-down: ++"A"++ (Quick Access Menu) |
+| ++"Command Center"++ | <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap> |
+| ++"Armoury Crate"++ | <no-wrap><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd><no-wrap> <no-wrap>(`Quick Access Menu`)</no-wrap> |
 | ++"M1"++ | ++"R4"++ |
 | ++"M2"++ | ++"L4"++ |
 
@@ -38,7 +44,7 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 ### Booting from an external drive (USB or SD Card)
 
-To boot SteamFork from an external drive, hold :material-power: ++"Power"++ until the device powers on.
-Release :material-power: ++"Power"++ and repeatedly tap :material-minus: ++"Volume Down"++ until the `Bios Utility` appears.
+To boot SteamFork from an external drive, hold <kbd>:material-power: Power</kbd> until the device powers on.
+Release <kbd>:material-power: Power</kbd> and repeatedly tap <kbd>:material-minus: Volume Down</kbd> until the `Bios Utility` appears.
 
-Using the :material-gamepad-round: ++"D-pad"++ and :material-gamepad-circle-down: ++"A"++ or the touchscreen, select `Boot Menu` and select the storage device with SteamFork to boot the distribution.
+Using the <kbd>:material-gamepad-round: D-pad</kbd> and <kbd>:material-gamepad-circle-down: A</kbd> or the touchscreen, select `Boot Menu` and select the storage device with SteamFork to boot the distribution.
