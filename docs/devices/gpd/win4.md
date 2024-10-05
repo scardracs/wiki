@@ -28,6 +28,6 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 In order to launch SteamFork from a USB drive or SD Card you will need to first change the boot order in the BIOS.
 
-During boot you can enter the bios by either pressing the `del` key on the built-in keyboard.  
+During boot you can enter the bios by either pressing the ++del++ key on the built-in keyboard.
 
 In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card under `Boot Order Priorities`. Then go `Save & Exit` and select the Save Changes and Exit option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.

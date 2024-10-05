@@ -31,4 +31,6 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 ### Booting from an external drive (USB or SD Card)
 
-To boot SteamFork from an external drive, hold ++"LC"+"Volume Up"++ and press the ++"Power"++ button, continue holding ++"LC"+"Volume Up"++ until the Ayaneo logo appears.  Select the storage device with SteamFork from the boot menu using the Ayaneo button, and then press volume up to boot the distribution.
+To boot SteamFork from an external drive, hold ++"LC"+"Volume Up"++ and press :material-power: ++"Power"++ ,
+continue holding ++"LC"+"Volume Up"++ until the Ayaneo logo appears.
+Select the storage device with SteamFork from the boot menu using the ++"Ayaneo"++ button, and then press ++"Volume Up"++ to boot the distribution.

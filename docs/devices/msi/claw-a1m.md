@@ -18,7 +18,7 @@ title: MSI Claw A1M
 | -- | -- |
 | <span class="nowrap">:material-harddisk: Storage</span> | SteamFork can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
 | :material-wifi: Wifi | Can be turned on in Steam OS under Main Menu > Network. |
-| <span class="nowrap">:simple-bluetooth:Bluetooth</span> | Supports bluetooth audio and controllers. |
+| <span class="nowrap">:simple-bluetooth: Bluetooth</span> | Supports bluetooth audio and controllers. |
 | :material-fan: Fan | Controlled by system firmware. |
 | <span class="nowrap">:material-lightning-bolt-circle: TDP Limit</span> | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin. |
 | <span class="nowrap">:material-vibrate: Rumble</span> | Enables the device rumble motor in emulators that support it. |
@@ -50,6 +50,8 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 * Game support is currently hit-or-miss.  DirectX 12 may be especially problematic.
 * Built-in controls currently cannot be recalibrated.
 * Paddle buttons currently cannot be remapped.
+* RGB currently cannot be controlled.
+* Mangohud does not display CPU or GPU power draw and does not correctly display GPU usage.
 
 ### Booting from an external USB drive (USB or SD Card)
 

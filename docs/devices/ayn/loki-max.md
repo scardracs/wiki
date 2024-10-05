@@ -1,6 +1,6 @@
-title: Ayn Loki Max
+title: AYN Loki Max
 
-# Ayn Loki Max
+# AYN Loki Max
 
 ![](../../_inc/images/devices/ayn-loki.png){ .off-glb }
 
@@ -27,8 +27,8 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 ### Booting from an external drive (USB or SD Card)
 
-In order to launch SteamFork from an external drive you will need to first change the boot order in the BIOS.  
+In order to launch SteamFork from an external drive you will need to first change the boot order in the BIOS.
 
-During boot you can enter the bios by either (1) holding the ++"Home"+"LCC (Turbo)"++ buttons that sit bellow the dpad and right analog stick OR (2) connecting an external keyboard and pressing the ++del++ key.  
+During boot you can enter the bios by either (1) holding the ++"Home"+"LCC (Turbo)"++ buttons that sit bellow the dpad and right analog stick OR (2) connecting an external keyboard and pressing the ++del++ key.
 
 In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card or USB Drive under `Boot Order Priorities`. Then go `Save & Exit` and select the Save Changes and Exit option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.

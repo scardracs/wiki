@@ -29,8 +29,7 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 ### Booting from an external drive (USB or SD Card)
 
-In order to launch SteamFork from a USB drive or SD Card you will need to first change the boot order in the BIOS.
+To boot SteamFork from an external drive, hold :material-power: ++"Power"++ until the device powers on.
+Release :material-power: ++"Power"++ and repeatedly tap :material-minus: ++"Volume Down"++ until the `Bios Utility` appears.
 
-During boot you can enter the bios by either pressing the `del` key on the built-in keyboard.  
-
-In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card under `Boot Order Priorities`. Then go `Save & Exit` and select the Save Changes and Exit option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.
+Using the :material-gamepad-round: ++"D-pad"++ and :material-gamepad-circle-down: ++"A"++ or the touchscreen, select `Boot Menu` and select the storage device with SteamFork to boot the distribution.
