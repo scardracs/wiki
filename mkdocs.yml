@@ -88,13 +88,12 @@ nav:
       - Atari:
         - VCS: devices/atari/vcs.md
       - AYANEO:
-        - 2/2s: devices/ayaneo/ayaneo-2.md
+        - 2s: devices/ayaneo/ayaneo-2s.md
         - Air / Air Pro: devices/ayaneo/air.md
         - Air Plus: devices/ayaneo/air-plus.md
         - Flip: devices/ayaneo/flip.md
         - Slide: devices/ayaneo/slide.md
       - AYN:
-        - Loki Zero: devices/ayn/loki-zero.md
         - Loki Max: devices/ayn/loki-max.md
       - GPD:
         - Win 4: devices/gpd/win4.md
