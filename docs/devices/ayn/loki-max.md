@@ -16,6 +16,15 @@ title: AYN Loki Max
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 | :material-lightbulb-on: RGB |Disabled on startup. Requires the [HueSync](https://github.com/honjow/HueSync) plugin for additional RGB control.|
 
+### Function Buttons
+
+| Button | Function |
+| -- | -- |
+| ++"Home"++ | :material-microsoft-xbox: ++"Guide"++ (Steam Menu) |
+| ++"LCC (Turbo)"++ | :material-microsoft-xbox: ++"Guide"++ + :material-gamepad-circle-down: ++"A"++ (Quick Access Menu) |
+| ++"M1"++ | ++"R3"++ |
+| ++"M2"++ | ++"L3"++ |
+
 ## Notes
 
 ### Installation

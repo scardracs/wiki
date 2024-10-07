@@ -15,6 +15,14 @@ title: GPD Win 4
 | :material-lightning-bolt-circle: TDP Limit | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 
+### Function Buttons
+
+| Button | Function |
+| -- | -- |
+| ++"Menu"++ | :material-microsoft-xbox: ++"Guide"++ (Steam Menu) |
+| ++"L4"++ | ++"L4"++ |
+| ++"R4"++ | ++"R4"++ |
+
 ## Notes
 
 ### Installation

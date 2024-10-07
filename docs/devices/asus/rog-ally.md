@@ -18,6 +18,15 @@ title: ASUS ROG Ally / Ally X
 | :material-lightning-bolt-circle: TDP Limit | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 
+### Function Buttons
+
+| Button | Function |
+| -- | -- |
+| ++"Command Center"++ | :material-microsoft-xbox: ++"Guide"++ (Steam Menu) |
+| ++"Armoury Crate"++ | :material-microsoft-xbox: ++"Guide"++ + :material-gamepad-circle-down: ++"A"++ (Quick Access Menu) |
+| ++"M1"++ | ++"R4"++ |
+| ++"M2"++ | ++"L4"++ |
+
 ## Notes
 
 ### Installation

@@ -24,6 +24,15 @@ title: AYANEO Slide
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 | :material-lightbulb-on: RGB | Disabled on startup. Requires the [HueSync](https://github.com/honjow/HueSync) plugin for additional RGB control.|
 
+### Function Buttons
+
+| Button | Function |
+| -- | -- |
+| ++"Aya"++ | :material-microsoft-xbox: ++"Guide"++ (Steam Menu) |
+| ++"="++ | :material-microsoft-xbox: ++"Guide"++ + :material-gamepad-circle-down: ++"A"++ (Quick Access Menu) |
+| ++"LC"++ | ++"L4"++ |
+| ++"RC"++ | ++"R4"++ |
+
 ## Notes
 
 ### Installation
