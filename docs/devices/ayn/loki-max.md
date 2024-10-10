@@ -27,7 +27,7 @@ title: AYN Loki Max
 | Button | Function |
 | -- | -- |
 | ++"Home"++ | <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap> |
-| ++"LCC (Turbo)"++ | <no-span><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd></no-span> <no-wrap>(`Quick Access Menu`)</no-wrap> |
+| ++"LCC (Turbo)"++ | <no-wrap><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd></no-wrap> <no-wrap>(`Quick Access Menu`)</no-wrap> |
 | ++"M1"++ | ++"R3"++ |
 | ++"M2"++ | ++"L3"++ |
 
