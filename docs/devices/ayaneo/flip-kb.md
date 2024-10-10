@@ -1,4 +1,4 @@
-title: AYANEO Air Plus
+title: AYANEO Flip KB
 
 <style>
   code {white-space: nowrap;}
@@ -6,9 +6,13 @@ title: AYANEO Air Plus
   no-wrap {white-space: nowrap;}
 </style>
 
-# AYANEO Air Plus
+# AYANEO Flip KB
 
-![](../../_inc/images/devices/ayaneo-air-plus.png){ .off-glb }
+![](../../_inc/images/devices/ayaneo-flip-kb.png){ .off-glb }
+
+!!!info
+    New AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.
+    Follow the [process on the Wiki](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) to configure your device.
 
 ## Features
 
@@ -20,7 +24,6 @@ title: AYANEO Air Plus
 | <no-wrap>:material-fan: Fan</no-wrap> | Controlled by system firmware. |
 | <no-wrap>:material-lightning-bolt-circle: TDP Limit</no-wrap> | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
 | <no-wrap>:material-vibrate: Rumble</no-wrap> | Enables the device rumble motor in emulators that support it. |
-| <no-wrap>:material-lightbulb-on: RGB</no-wrap> | Disabled on startup. Requires the [HueSync](https://github.com/honjow/HueSync) plugin for additional RGB control.|
 
 ### Function Buttons
 
@@ -39,6 +42,11 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 [![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/SteamFork/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/SteamFork/distribution/releases/latest)
+
+### Known Issues
+
+* Touch input does not work.
+* The Ayaneo Flip DS is unsupported.
 
 ### Booting from an external drive (USB or SD Card)
 

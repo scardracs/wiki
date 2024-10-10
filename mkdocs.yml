@@ -77,7 +77,7 @@ nav:
       - Code of Conduct: contribute/code-of-conduct.md
       - Build: contribute/build.md
       - Quirks: contribute/quirks.md
-    - Devices: 
+    - Devices:
       - devices/index.md
       - Anbernic:
         - Win600: devices/anbernic/win600.md
@@ -86,10 +86,13 @@ nav:
       - Atari:
         - VCS: devices/atari/vcs.md
       - AYANEO:
-        - 2s: devices/ayaneo/ayaneo-2s.md
+        - 2S: devices/ayaneo/ayaneo-2s.md
         - Air Plus: devices/ayaneo/air-plus.md
-        - Flip: devices/ayaneo/flip.md
+        - Flip KB: devices/ayaneo/flip-kb.md
       - AYN:
         - Loki Max: devices/ayn/loki-max.md
       - GPD:
         - Win 4: devices/gpd/win4.md
+      - MSI:
+        - Claw A1M: devices/msi/claw-a1m.md
+        
