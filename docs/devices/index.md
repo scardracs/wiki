@@ -9,18 +9,18 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | Manufacturer | Product | Sponsor <sup>1</sup> |
 | -- | -- | -- |
 | Anbernic | [Win600](anbernic/win600) | [uejji](https://github.com/uejji) |
-| ANTEC | [Core HS](antec/core-hs) <sup>2,3</sup> | [Fewtarius](https://github.com/fewtarius) |
+| ANTEC | Core HS <sup>2</sup> | Community Verified |
 | ASUS | [ROG Ally / Ally X](asus/rog-ally) | [flukejones](https://github.com/flukejones) |
 | Atari | [VCS](atari/vcs) | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | 2 | Community Verified |
 | AYANEO | [2S](ayaneo/ayaneo-2s) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
-| AYANEO | [Air / Air Pro](ayaneo/air) | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | Air / Air Pro | Community Verified |
 | AYANEO | Air 1S <sup>2</sup> | Community Verified |
 | AYANEO | [Air Plus](ayaneo/air-plus) | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | [Flip KB](ayaneo/flip-kb) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | Geek | Community Verified by [alexapple79](https://www.youtube.com/watch?v=4iBE-PUC_0Y) |
 | AYANEO | Next, Next Lite, Next Pro | Community Verified |
-| AYANEO | [Slide](ayaneo/slide) <sup>2,3</sup> | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | Slide <sup>2</sup> | Community Verified |
 | AYN | [Loki Max](ayn/loki-max) | [Fewtarius](https://github.com/fewtarius) |
 | AYN | Loki Zero | Community Verified |
 | GPD | [Win 4](gpd/win4) | [anthonycaccese](https://github.com/anthonycaccese) |
