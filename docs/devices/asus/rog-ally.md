@@ -28,8 +28,8 @@ title: ASUS ROG Ally / Ally X
 
 | Button | Function |
 | -- | -- |
-| ++"Command Center"++ | <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap> |
-| ++"Armoury Crate"++ | <no-wrap><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd><no-wrap> <no-wrap>(`Quick Access Menu`)</no-wrap> |
+| ++"Command Center"++ | Press: <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap><br />Hold: <no-wrap><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-left: X</kbd></no-wrap> <no-wrap>(`On-Screen Keyboard`)</no-wrap> |
+| ++"Armoury Crate"++ | Press: <no-wrap><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd><no-wrap> <no-wrap>(`Quick Access Menu`)</no-wrap><br />Hold: <kbd>:octicons-upload-16: Share</kbd> <no-wrap>(`Take Screenshot`)</no-wrap> |
 | ++"M1"++ | ++"R4"++ |
 | ++"M2"++ | ++"L4"++ |
 
