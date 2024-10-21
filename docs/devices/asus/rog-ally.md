@@ -11,7 +11,7 @@ title: ASUS ROG Ally / Ally X
 ![](../../_inc/images/devices/asus-rog-ally.png){ .off-glb }
 
 !!!info
-    Some community members have been working with ASUS to solve the issue around Ally 1 and X having sometimes a faulty resume where the LED device of gamepad is missing. The fix has been found and is solved permanently in firmware. The Firmware is going through QA, and the estimated release date is October 16, 2024. To update your device you will require Windows (such as dual boot, or on a USB drive). There is an effort underway to reverse engineer the update protocol for use with fwupd.
+    For the best support and performance, please upgrade to at least BIOS version 341 and MCU version 319 (Ally) or at least BIOS version 308 and MCU version 313 (Ally X).
 
 ## Features
 
