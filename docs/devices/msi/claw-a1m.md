@@ -31,8 +31,6 @@ title: MSI Claw A1M
 | -- | -- |
 | ++"MSI Center"++ | <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap> |
 | ++"Quick Settings"++ | <no-wrap><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd></no-wrap> <no-wrap>(`Quick Access Menu`)</no-wrap> |
-| ++"M1"++ | <kbd>:material-gamepad-circle-down: A</kbd> |
-| ++"M2"++ | <kbd>:material-gamepad-circle-right: B</kbd> |
 
 ## Notes
 
