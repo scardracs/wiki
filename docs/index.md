@@ -4,7 +4,7 @@
 
 # Welcome to the SteamFork Wiki
 
-SteamFork is a project to create an immutable Linux distribution that is as SteamOS like as possible without sacrificing device compatibility.
+SteamFork is a SteamOS-based operating system with improved hardware compatibility.  It is designed to provide the same experience as SteamOS on a SteamDeck.
 
 ## Features
 * Full SteamOS UI/UX, including desktop mode.
