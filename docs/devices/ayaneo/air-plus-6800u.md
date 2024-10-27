@@ -1,4 +1,4 @@
-title: AYANEO Air Plus
+title: AYANEO Air Plus 6800U
 
 <style>
   code {white-space: nowrap;}
@@ -6,7 +6,7 @@ title: AYANEO Air Plus
   no-wrap {white-space: nowrap;}
 </style>
 
-# AYANEO Air Plus
+# AYANEO Air Plus 6800U
 
 ![](../../_inc/images/devices/ayaneo-air-plus.png){ .off-glb }
 

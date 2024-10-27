@@ -86,13 +86,9 @@ nav:
       - Atari:
         - VCS: devices/atari/vcs.md
       - AYANEO:
-        - 2S: devices/ayaneo/ayaneo-2s.md
-        - Air Plus: devices/ayaneo/air-plus.md
+        - Air Plus 6800U: devices/ayaneo/air-plus-6800u.md
         - Flip KB: devices/ayaneo/flip-kb.md
-      - AYN:
-        - Loki Max: devices/ayn/loki-max.md
       - GPD:
         - Win 4 6800U: devices/gpd/win4-6800u.md
       - MSI:
         - Claw A1M: devices/msi/claw-a1m.md
-        
