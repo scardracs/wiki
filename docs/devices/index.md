@@ -11,7 +11,7 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | Anbernic | [Win600](anbernic/win600) | [uejji](https://github.com/uejji) |
 | ANTEC | Core HS <sup>2</sup> | Community Verified |
 | ASUS | [ROG Ally / Ally X](asus/rog-ally) | [flukejones](https://github.com/flukejones) |
-| Atari | [VCS](atari/vcs) | [Fewtarius](https://github.com/fewtarius) |
+| Atari | VCS | Community Verified |
 | AYANEO | 2 | Community Verified |
 | AYANEO | 2S | Community Verified |
 | AYANEO | Air / Air Pro | Community Verified |
