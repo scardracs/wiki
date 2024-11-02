@@ -21,7 +21,8 @@ SteamFork is installed by downloading an image, flashing it to an SD Card or USB
 
 ## Step 4: Run the SteamFork installer
 
-* From the live mode desktop, open the "Install SteamFork" application and then follow the prompts to install to your device.  
+* From the live mode desktop, open the "Install SteamFork" application and then follow the prompts to install to your device.
+* Installing SteamFork will erase all data and partitions on selected drive. Make sure to backup your data before proceeding.
 * When complete, close the installer, and shut down the device.  Remove the installation media, and then power the device on to boot into SteamOS.
 
 Screenshots of this process:
