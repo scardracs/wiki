@@ -17,6 +17,10 @@ If the device you are interested in isn't in that list then no one has contribut
 
 That said, anyone who is interested can submit updates to SteamFork to add support for a device they care about! If you are interested in adding support for a new device please start here: [Contribute](../contribute)
 
+### Can I install SteamFork alongside Windows or other operating system?
+
+No. Installing SteamFork on a device will remove all partitions and erase all data, so make sure to backup your data first. However, you can install another operating system, including Windows, after SteamFork is set up on the same drive.
+
 ## Using SteamFork
 
 ### How do I log in over SSH or Samba?
