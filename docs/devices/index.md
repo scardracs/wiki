@@ -25,6 +25,7 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | AYN | Loki Max | Community Verified |
 | AYN | Loki Zero | Community Verified |
 | GPD | [Win 4 6800U](gpd/win4-6800u) | [anthonycaccese](https://github.com/anthonycaccese) |
+| GPD | Win 4 7840U | Community Verified by [Maeiourk](https://github.com/maeiourk) |
 | GPD | Win Mini | Community Verified |
 | MSI | [Claw A1M](msi/claw-a1m) <sup>3</sup> | [uejji](https://github.com/uejji) |
 
