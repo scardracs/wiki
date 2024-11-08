@@ -1,4 +1,4 @@
-title: AYANEO Air Plus 6800U
+title: AYANEO Air Plus (AMD 6800U)
 
 <style>
   code {white-space: nowrap;}
@@ -6,7 +6,7 @@ title: AYANEO Air Plus 6800U
   no-wrap {white-space: nowrap;}
 </style>
 
-# AYANEO Air Plus 6800U
+# AYANEO Air Plus (AMD 6800U)
 
 ![](../../_inc/images/devices/ayaneo-air-plus.png){ .off-glb }
 
