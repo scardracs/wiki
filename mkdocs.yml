@@ -84,10 +84,10 @@ nav:
       - ASUS:
         - ROG Ally / Ally X: devices/asus/rog-ally.md
       - AYANEO:
-        - Air 1S 8840U: devices/ayaneo/air-1s-8840u.md
-        - Air Plus 6800U: devices/ayaneo/air-plus-6800u.md
+        - Air 1S (AMD 8840U): devices/ayaneo/air-1s-8840u.md
+        - Air Plus (AMD 6800U): devices/ayaneo/air-plus-6800u.md
         - Flip KB: devices/ayaneo/flip-kb.md
       - GPD:
-        - Win 4 6800U: devices/gpd/win4-6800u.md
+        - Win 4 (AMD 6800U): devices/gpd/win4-6800u.md
       - MSI:
         - Claw A1M: devices/msi/claw-a1m.md
