@@ -116,9 +116,9 @@ sudo umount /mnt
 #### Updating BIOS (Ayaneo)
 1. Grab the firmware files from Ayaneo support: https://ayaneo.com/support/download
 2. Download shellx64: https://github.com/pbatard/UEFI-Shell/releases/download/24H1/shellx64.efi
-3. Format a USB stick as FAT 32 and create the folders /EFI/Boot.
+3. Format a USB drive as FAT 32 and create the folders /EFI/Boot/ on the root of the USB drive.
 4. Place shellx64.efi into the Boot folder and rename it to BootX64.efi
-5. Extract the Ayaneo firmware files to the USB drive. Make sure the .bin file that contains the update is on the root of the USB drive, as well as the file called "AfuEfix64.efi"
+5. Extract the Ayaneo firmware files to the USB drive. Make sure the .bin file that contains the update is on the root of the USB drive, as well as the file called "AfuEfix64.efi" You may need to find a password in a readme file to get to the actual BIOS file.
 6. Create a new plain text file and name it startup.nsh
 7. Place the following into startup.nsh, replacing <BIOS> with the full name of the .bin file containing the BIOS update:
 ```
@@ -127,5 +127,5 @@ AFUEFIx64 <BIOS> /p /b /n /k /L /REBOOT
 ```
 8. Ensure you have more than 50% battery and your device is plugged in.
 9. Plug the USB drive into your device, and hold LC and Volume+ until the Ayaneo logo appears.
-10. Select the USB drive from the boot menu. Do not press anything or remove the drive until the BIOS update completes and the device reboots. Interrupting the update in any way can brick your device.
+10. Select the USB drive from the boot menu using the Ayaneo buttons to select and volume button to confirm. Do not press anything or remove the drive until the BIOS update completes and the device reboots. Interrupting the update in any way can brick your device.
 
