@@ -113,13 +113,13 @@ sudo umount /mnt
 
 > Note: On newer Ayaneo devices, modern standby is enabled by the BIOS update released on 2024 11 04.
 
-#### Updating BIOS (Ayaneo)
+### Updating BIOS (Ayaneo)
 1. Grab the firmware files from Ayaneo support: https://ayaneo.com/support/download
 2. Download shellx64: https://github.com/pbatard/UEFI-Shell/releases/download/24H1/shellx64.efi
 3. Format a USB drive as FAT 32 and create the folders /EFI/Boot/ on the root of the USB drive.
 4. Place shellx64.efi into the Boot folder and rename it to BootX64.efi
 5. Extract the Ayaneo firmware files to the USB drive. Make sure the .bin file that contains the update is on the root of the USB drive, as well as the file called "AfuEfix64.efi" You may need to find a password in a readme file to get to the actual BIOS file.
-6. Create a new plain text file and name it startup.nsh
+6. Create a new plain text file on the root of the USB drive and name it "startup.nsh"
 7. Place the following into startup.nsh, replacing <BIOS> with the full name of the .bin file containing the BIOS update:
 ```
 fs1:
