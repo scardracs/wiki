@@ -22,7 +22,8 @@ title: ASUS ROG Ally / Ally X
 | <no-wrap>:simple-bluetooth: Bluetooth</no-wrap> | Supports bluetooth audio and controllers .|
 | <no-wrap>:material-fan: Fan</no-wrap> | Managed by system firmware. |
 | <no-wrap>:material-lightning-bolt-circle: TDP Limit</no-wrap> | Can be set globally, per system or per game. Requires the [SimpleDeckyTDP](https://github.com/SteamFork/SimpleDeckyTDP) plugin.|
-| <no-wrap>:material-vibrate: Rumble</no-wrap> | Enables the device rumble motor in emulators that support it. |
+| <no-wrap>:material-vibrate: Rumble</no-wrap> | Enables the device rumble motor in software that supports it. |
+| <no-wrap>:material-lightbulb-on: RGB</no-wrap> | Disabled on startup. Requires the [HueSync](https://github.com/honjow/HueSync) plugin for additional RGB control.|
 
 ### Function Buttons
 
