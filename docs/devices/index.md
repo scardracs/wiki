@@ -13,10 +13,10 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | ASUS | [ROG Ally / Ally X](asus/rog-ally) | [flukejones](https://github.com/flukejones) |
 | Atari | VCS | Community Verified |
 | AYANEO | 2 | Community Verified |
-| AYANEO | 2S | Community Verified |
+| AYANEO | 2S <sup>3</sup> | Community Verified |
 | AYANEO | Air / Air Pro | Community Verified |
-| AYANEO | Air 1S (AMD 7840U) <sup>2</sup> | Community Verified |
-| AYANEO | [Air 1S (AMD 8840U)](ayaneo/air-1s-8840u) | [winghugs](https://github.com/winghugs) |
+| AYANEO | Air 1S (AMD 7840U) <sup>3</sup> | Community Verified |
+| AYANEO | [Air 1S (AMD 8840U)](ayaneo/air-1s-8840u) <sup>3</sup> | [winghugs](https://github.com/winghugs) |
 | AYANEO | [Air Plus (AMD 6800U)](ayaneo/air-plus-6800u) | [uejji](https://github.com/uejji) |
 | AYANEO | [Flip KB](ayaneo/flip-kb) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | Geek | Community Verified by [alexapple79](https://www.youtube.com/watch?v=4iBE-PUC_0Y) |
@@ -27,12 +27,13 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | GPD | [Win 4 (AMD 6800U)](gpd/win4-6800u) | [anthonycaccese](https://github.com/anthonycaccese) |
 | GPD | Win 4 (AMD 7840U) | Community Verified by [Maeiourk](https://github.com/maeiourk) |
 | GPD | Win Mini | Community Verified |
-| MSI | [Claw A1M](msi/claw-a1m) <sup>3</sup> | [uejji](https://github.com/uejji) |
+| MSI | [Claw A1M](msi/claw-a1m) <sup>4</sup> | [uejji](https://github.com/uejji) |
 
 !!! info
     1. Sponsored devices are fully supported by its maintainer.  Support for unsponsored and community verified devices may vary.
-    2. New AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.  This setting is locked down on many Ayaneo devices and must be enabled using a third party helper.  Follow the [process on the Wiki](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) to configure your device.
-    3. Support for these devices is still a work in progress. Expect bugs or incomplete/missing features as support is being added. Refer to the specific device's page for more information.
+    2. Some AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.  This setting is locked down on many Ayaneo devices and must be enabled using a third party helper.  Follow the [process on the Wiki](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) to configure your device.
+    3. Requires a BIOS update for modern sleep to work correctly.
+    4. Support for these devices is still a work in progress. Expect bugs or incomplete/missing features as support is being added. Refer to the specific device's page for more information.
 
 ## Sponsoring a device
 
