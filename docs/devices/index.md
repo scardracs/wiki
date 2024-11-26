@@ -4,7 +4,7 @@ title: Device Support
 
 ## Tested devices
 
-SteamFork has been tested (i.e. booted at least once) on the list of devices below marked sponsored and verified.  Devices with a sponsor are actively tested and used with SteamFork frequently.  Devices without a sponsor are not actively maintained and may have unknown issues. While untested, modern laptops, desktops, and mini PCs with Intel or AMD should not have any issues.
+SteamFork has been tested (i.e. booted at least once) on the list of devices below marked sponsored and verified.  Devices with a sponsor are actively tested and used with SteamFork frequently.  Devices without a sponsor are not actively tested by a dedicated maintainer and may have unknown issues. While untested, modern laptops, desktops, and mini PCs with Intel or AMD should not have any issues.
 
 | Manufacturer | Product | Sponsor <sup>1</sup> |
 | -- | -- | -- |
