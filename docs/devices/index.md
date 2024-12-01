@@ -13,16 +13,15 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | ASUS | [ROG Ally / Ally X](asus/rog-ally) | [flukejones](https://github.com/flukejones) |
 | Atari | VCS | Community Verified |
 | AYANEO | 2 | Community Verified |
-| AYANEO | 2S <sup>3</sup> | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | [2S](ayaneo/ayaneo-2s) <sup>3</sup> | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | Air / Air Pro | Community Verified |
-| AYANEO | Air 1S (AMD 7840U) <sup>3</sup> | Community Verified |
-| AYANEO | [Air 1S (AMD 8840U)](ayaneo/air-1s-8840u) <sup>3</sup> | [winghugs](https://github.com/winghugs) |
+| AYANEO | [Air 1S](ayaneo/air-1s) <sup>3</sup> | [winghugs](https://github.com/winghugs) |
 | AYANEO | [Air Plus (AMD 6800U)](ayaneo/air-plus-6800u) | [uejji](https://github.com/uejji) |
 | AYANEO | [Flip KB](ayaneo/flip-kb) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | Geek | Community Verified by [alexapple79](https://www.youtube.com/watch?v=4iBE-PUC_0Y) |
 | AYANEO | Next, Next Lite, Next Pro | Community Verified |
 | AYANEO | Slide <sup>2</sup> | Community Verified |
-| AYN | Loki Max | [Fewtarius](https://github.com/fewtarius) |
+| AYN | [Loki Max](ayn/loki-max) | [Fewtarius](https://github.com/fewtarius) |
 | AYN | Loki Zero | Community Verified |
 | GPD | [Win 4 (AMD 6800U)](gpd/win4-6800u) | [anthonycaccese](https://github.com/anthonycaccese) |
 | GPD | Win 4 (AMD 7840U) | Community Verified by [Maeiourk](https://github.com/maeiourk) |
