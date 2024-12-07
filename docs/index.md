@@ -16,7 +16,7 @@ SteamFork is a SteamOS-based operating system with improved hardware compatibili
 * Offers improved fan curves on supported devices from Ayaneo and Ayn.
 * Includes power management optimizations ported from [JustEnoughLinuxOS](https://github.com/JustEnoughLinuxOS).
 * Supports booting from removable media such as usb drives and micro sd cards (64GB minimum) and dual boot with Windows.
-* Compatible with Epic Games Store, GoG, and Amazon Prime Gaming via Heroic, available for installation in discover.
+* Compatible with Epic Games Store, GoG, and Amazon Prime Gaming via Heroic which is available for installation in discover.
 
 ## Screenshots
 <table>
