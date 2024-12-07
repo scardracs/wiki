@@ -7,12 +7,16 @@
 SteamFork is a SteamOS-based operating system with improved hardware compatibility.  It is designed to provide the same experience as SteamOS on a SteamDeck.
 
 ## Features
-* Full SteamOS UI/UX, including desktop mode.
-* Minimal changes to SteamOS to preserve upstream compatibility.
-* Power management optimizations ported from [JustEnoughLinuxOS](https://github.com/JustEnoughLinuxOS).
-* Improved fan curves on supported devices.
-* RGB off by default, will flash on low battery (on supported devices).
-* Supports booting from removable media such as usb drives and micro sd cards (64GB minimum).
+* Works on a variety of devices from ASUS, Antec, Atari, Ayaneo, Ayn, and GPD along with MiniPCs and other computers with compatible hardware.
+* Provides a full SteamOS UI/UX experience, including SteamOS's desktop mode.
+* Minimal changes are made to SteamOS to preserve compatibility with Steam Deck plugins, software, and documentation.
+* Offers improved fan curves are available on supported devices from Ayaneo and Ayn.
+* Disables RGB off by default on supported devices, RGB will flash on low battery when available.
+* Includes power management optimizations ported from [JustEnoughLinuxOS](https://github.com/JustEnoughLinuxOS).
+* Supports booting from removable media such as usb drives and micro sd cards (64GB minimum) and dual boot with Windows.
+* SteamFork is an atomic distribution with simple rollback and recovery options.
+* Compatible Epic Games Store, GoG, and Amazon Prime Gaming via Heroic, available for installation in discover.
+* SteamOS is our upstream, making SteamFork the only active Linux gaming solution truly derived from SteamOS.
 
 ## Screenshots
 <table>
