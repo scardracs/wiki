@@ -36,7 +36,6 @@ title: AYANEO Air 1S (AMD 8840U)
 ### Known Issues
 
 * Audio and input events may not work consistently with fastboot enabled. It is recommended to turn fastboot off in the BIOS.
-* Sleep does not function properly, and only blanks the screen.
 * Hibernate does not function when configured, and freezes the device.
 * Dualsense controllers may not properly pair with bluetooth unless Bluez is downgraded to 5.68 or below.
 
