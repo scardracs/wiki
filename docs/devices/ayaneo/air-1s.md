@@ -38,6 +38,8 @@ title: AYANEO Air 1S (AMD 8840U)
 * Audio and input events may not work consistently with fastboot enabled. It is recommended to turn fastboot off in the BIOS.
 * Hibernate does not function when configured, and freezes the device.
 * Dualsense controllers may not properly pair with bluetooth unless Bluez is downgraded to 5.68 or below.
+* There is a popping sound when the speakers initialize after powering the device on or after they are turned on from from powering down. This can be resolved at the expense of a ~1W additional power draw when the speakers aren't otherwise in use. Writing this in terminal will resolve the popping:
+```sudo steamfork-set-setting audio.powersave.disabled 1```
 
 ### Installation
 
