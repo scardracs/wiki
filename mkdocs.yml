@@ -77,7 +77,7 @@ nav:
       - Code of Conduct: contribute/code-of-conduct.md
       - Build: contribute/build.md
       - Quirks: contribute/quirks.md
-    - Devices:
+    - Sponsored Devices:
       - devices/index.md
       - ASUS:
         - ROG Ally / Ally X: devices/asus/rog-ally.md
