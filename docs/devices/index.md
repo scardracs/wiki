@@ -8,7 +8,7 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 
 | Manufacturer | Product | Sponsor <sup>1</sup> |
 | -- | -- | -- |
-| Anbernic | [Win600](anbernic/win600) | [uejji](https://github.com/uejji) |
+| Anbernic | [Win600](anbernic/win600) | Community Verified |
 | ANTEC | Core HS <sup>2</sup> | Community Verified |
 | ASUS | [ROG Ally / Ally X](asus/rog-ally) | [flukejones](https://github.com/flukejones) |
 | Atari | VCS | Community Verified |
@@ -26,7 +26,7 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | GPD | [Win 4 (AMD 6800U)](gpd/win4-6800u) | [anthonycaccese](https://github.com/anthonycaccese) |
 | GPD | Win 4 (AMD 7840U) | Community Verified by [Maeiourk](https://github.com/maeiourk) |
 | GPD | Win Mini | Community Verified |
-| MSI | [Claw A1M](msi/claw-a1m) <sup>4</sup> | [uejji](https://github.com/uejji) |
+| MSI | [Claw A1M](msi/claw-a1m) | Community Verified |
 
 !!! info
     1. Sponsored devices are fully supported by its maintainer.  Support for unsponsored and community verified devices may vary.
