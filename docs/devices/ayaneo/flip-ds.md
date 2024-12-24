@@ -1,4 +1,4 @@
-title: AYANEO Flip KB
+title: AYANEO Flip DS
 
 <style>
   code {white-space: nowrap;}
@@ -6,9 +6,9 @@ title: AYANEO Flip KB
   no-wrap {white-space: nowrap;}
 </style>
 
-# AYANEO Flip KB
+# AYANEO Flip DS
 
-![](../../_inc/images/devices/ayaneo-flip-kb.png){ .off-glb }
+![](../../_inc/images/devices/ayaneo-flip-ds.png){ .off-glb }
 
 !!!info
     New AMD 7000 series devices do not support S3 sleep and must be configured for Modern Standby + s0i3.
@@ -45,7 +45,7 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 
 ### Known Issues
 
-* Touch input does not work.
+* Touch input does not work on the upper display.
 
 ### Booting from an external drive (USB or SD Card)
 
