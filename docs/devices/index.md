@@ -18,7 +18,7 @@ SteamFork has been tested (i.e. booted at least once) on the list of devices bel
 | AYANEO | [Air 1S](ayaneo/air-1s) <sup>3</sup> | [winghugs](https://github.com/winghugs) |
 | AYANEO | [Air Plus (AMD 6800U)](ayaneo/air-plus-6800u) | [uejji](https://github.com/uejji) |
 | AYANEO | [Flip DS](ayaneo/flip-ds) <sup>2,4</sup> | [uejji](https://github.com/uejji) |
-| AYANEO | [Flip KB](ayaneo/flip-kb) <sup>2</sup> | [Fewtarius](https://github.com/fewtarius) |
+| AYANEO | [Flip KB](ayaneo/flip-kb) <sup>2</sup> | Community Verified by [Fewtarius](https://github.com/fewtarius) |
 | AYANEO | Geek | Community Verified by [alexapple79](https://www.youtube.com/watch?v=4iBE-PUC_0Y) |
 | AYANEO | Next, Next Lite, Next Pro | Community Verified |
 | AYANEO | [Slide](ayaneo/slide.md) <sup>2</sup> | Community Verified |
