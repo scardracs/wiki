@@ -18,7 +18,7 @@ title: AYANEO Flip KB
 
 | Feature | Notes |
 | -- | -- |
-| <no-wrap>:material-harddisk: Storage</no-wrap> | SteamFork can be run from a USB Drive or installed directly to the internal NVME. 
+| <no-wrap>:material-harddisk: Storage</no-wrap> | SteamFork can be run from a USB Drive or installed directly to the internal NVME.
 | <no-wrap>:material-wifi: Wifi</no-wrap> | Can be turned on in Steam OS under `Main Menu` > `Network Settings`. |
 | <no-wrap>:simple-bluetooth: Bluetooth</no-wrap> | Supports bluetooth audio and controllers. |
 | <no-wrap>:material-fan: Fan</no-wrap> | Controlled by system firmware. |
@@ -31,6 +31,7 @@ title: AYANEO Flip KB
 | -- | -- |
 | ++"Aya"++ | <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap> |
 | <kbd>:material-equal:</kbd> | <no-wrap><kbd>:material-microsoft-xbox: Guide</kbd> + <kbd>:material-gamepad-circle-down: A</kbd></no-wrap> <no-wrap>(`Quick Access Menu`)</no-wrap> |
+| <kbd>:material-dots-horizontal:</kbd> | <kbd>:material-microsoft-xbox: Guide</kbd> <no-wrap>(`Steam Menu`)</no-wrap> |
 | ++"LC"++ | ++"L4"++ |
 | ++"RC"++ | ++"R4"++ |
 
@@ -43,9 +44,6 @@ Download the latest `AMD64` version of SteamFork from the button below and follo
 [![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/SteamFork/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/SteamFork/distribution/releases/latest)
 
-### Known Issues
-
-* Touch input does not work.
 
 ### Booting from an external drive (USB or SD Card)
 
