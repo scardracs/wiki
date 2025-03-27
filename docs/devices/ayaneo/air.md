@@ -53,25 +53,27 @@ Select the storage device with SteamFork from the boot menu using the ++"Ayaneo"
 ### Fixing Audio Polarity
 Early Ayaneo Air and Air Pro models were shipped with speaker polarity reversed.  Correcting this condition is simple, it requires creating a custom quirk.  Custom quirks persist across updates.
 
-    ### Set a variable to define your custom quirk, Ayaneo Air and Air Pro devices use `AYANEO-AIR`.
-    export CUSTDIR="/home/.steamos/offload/customdevicequirks/AYANEO-AIR/boot.d"
+```
+### Set a variable to define your custom quirk, Ayaneo Air and Air Pro devices use `AYANEO-AIR`.
+export CUSTDIR="/home/.steamos/offload/customdevicequirks/AYANEO-AIR/boot.d"
 
-    ### Create the directory and change into it.
-    sudo mkdir -p ${CUSTDIR}
-    cd ${CUSTDIR}
+### Create the directory and change into it.
+sudo mkdir -p ${CUSTDIR}
+cd ${CUSTDIR}
 
-    ### Create the quirk
-    cat <<EOF | sudo tee audio-phase-fix.sh
-    #!/bin/sh
-    master=alsa_output.pci-0000_04_00.6.analog-stereo
-    pactl load-module module-ladspa-sink sink_name=ladspa_out sink_master=$master plugin=inv_1429 label=inv channel_map=front-right
-    pactl load-module module-remap-sink sink_name=remap_FR master=ladspa_out channels=1 master_channel_map=front-right channel_map=front-right
-    pactl load-module module-remap-sink sink_name=remap_FL master=$master channels=1 master_channel_map=front-left channel_map=front-left
-    pactl load-module module-combine-sink sink_name='"AYANEO AIR Fixed Phase Audio"' sink_properties=device.description='"AYANEO_AIR_Fixed_Phase_Audio"' slaves=remap_FL,remap_FR channels=2
-    EOF
+### Create the quirk
+cat <<EOF | sudo tee audio-phase-fix.sh
+#!/bin/sh
+master=alsa_output.pci-0000_04_00.6.analog-stereo
+pactl load-module module-ladspa-sink sink_name=ladspa_out sink_master=$master plugin=inv_1429 label=inv channel_map=front-right
+pactl load-module module-remap-sink sink_name=remap_FR master=ladspa_out channels=1 master_channel_map=front-right channel_map=front-right
+pactl load-module module-remap-sink sink_name=remap_FL master=$master channels=1 master_channel_map=front-left channel_map=front-left
+pactl load-module module-combine-sink sink_name='"AYANEO AIR Fixed Phase Audio"' sink_properties=device.description='"AYANEO_AIR_Fixed_Phase_Audio"' slaves=remap_FL,remap_FR channels=2
+EOF
 
-    chmod 0755 ${CUSTDIR}
-    ### Reboot the device to activate, or execute ${CUSTDIR}/audio-phase-fix.sh
+chmod 0755 ${CUSTDIR}
+### Reboot the device to activate, or execute ${CUSTDIR}/audio-phase-fix.sh
+```
 
 ### Known Issues
 
