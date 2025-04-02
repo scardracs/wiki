@@ -34,3 +34,46 @@ SteamFork is immutable so any changes may be lost, however it may be useful to u
 
 * Log into desktop mode and make the filesystem writeable: `sudo steamos-readonly disable`
 * Install or update the package: Ex. `sudo pacman -Sy steamfork-customizations-jupiter`
+
+### Enabling Modern Sleep on 7000 Series AMD based devices.
+
+7000 series and newer AMD APU's no longer support S3 sleep, and unfortunately many handheld manufacturers don't configure their firmware to take advantage of modern standby by default.  Fortunately, modern standby can be configured manually in firmware, or by using a helper.
+
+> :warning: **Warning**
+>
+> The Smokeless UMAF tool has been known to brick devices even by reading values in the BIOS. There is a good chance that setting something incorrectly in the BIOS with this tool will brick your device and void your warranty. This article is posted for informational purposes only.  SteamFork takes no responsibility for any harm caused by following these steps. By following this guide you acknowledge that you are solely responsible for the outcome.
+
+#### Modern Standby Enablement Methods
+* Enter your firmware settings to see if you have the options listed in the steps in the next section.  If so, skip the rest of this section.
+* If the options are not available, follow the next few steps to create boot media.
+  * Format a USB stick with FAT32.
+  * Download [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF/raw/main/UMAF_BETA.zip).
+  * Extract `UMAF_Beta.zip` and copy the contents into the root of the usb stick.
+  * Boot your device and select the USB stick from the boot menu.
+  * Navigate to the `Front Page` tab and select `Device Manager`.
+
+#### Enabling Modern Standby
+1. Select `AMD PBS` then `Power Saving Configurations`.
+2. Under `S3/Modern Standby Support` change the entry to `Modern Standby` (or `Modern Standby Enable` on some devices).
+3. Under `Modern Standby Type` select `Modern Standby + S0i2 + S0i3`.
+4. Save changes and exit, allowing the device to reboot.
+
+> Note: The first restart after this change may take longer than usual.  Thanks to ChimeraOS for the [initial writeup](https://github.com/ChimeraOS/chimeraos/wiki/Community-Guides#enabling-modern-sleep-on-7000-series-amd-hardware) of this section.
+
+> Note: On newer Ayaneo devices, modern standby is enabled by the BIOS update released on 2024 11 04.
+
+### Updating BIOS (Ayaneo)
+1. Grab the firmware files from Ayaneo support: https://ayaneo.com/support/download
+2. Download shellx64: https://github.com/pbatard/UEFI-Shell/releases/download/24H1/shellx64.efi
+3. Format a USB drive as FAT 32 and create the folders /EFI/Boot/ on the root of the USB drive.
+4. Place shellx64.efi into the Boot folder and rename it to BootX64.efi
+5. Extract the Ayaneo firmware files to the USB drive. Make sure the .bin file that contains the update is on the root of the USB drive, as well as the file called "AfuEfix64.efi" You may need to find a password in a readme file to get to the actual BIOS file.
+6. Create a new plain text file on the root of the USB drive and name it "startup.nsh"
+7. Place the following into startup.nsh, replacing <BIOS> with the full name of the .bin file containing the BIOS update:
+```
+fs1:
+AFUEFIx64 <BIOS> /p /b /n /k /L /REBOOT
+```
+8. Ensure you have more than 50% battery and your device is plugged in.
+9. Plug the USB drive into your device, and hold LC and Volume+ until the Ayaneo logo appears.
+10. Select the USB drive from the boot menu using the Ayaneo buttons to select and volume button to confirm. Do not press anything or remove the drive until the BIOS update completes and the device reboots. Interrupting the update in any way can brick your device.
