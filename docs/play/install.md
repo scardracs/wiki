@@ -11,7 +11,7 @@ SteamFork is installed by downloading an image, flashing it to an SD Card or USB
 | Branch       | Upstream Version | Download Link                                                                                                           | Checksum                                                                                                           |
 |--------------|------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | **Stable**   | 3.6              | [![Stable](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Stable&style=flat)](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso.sha256)                       |
-| **Latest**   | 3.7              | [![Latest](https://img.shields.io/badge/Latest-3.7-FF9900?labelColor=111111&style=flat)](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso.sha256)                   |
+| **Latest**   | 3.7              | [![Latest](https://img.shields.io/badge/Testing-Latest-FF9900?labelColor=111111&style=flat)](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso.sha256)                   |
 
 * Download the version that best suits your needs:
   * **Stable**: Recommended for most users.
