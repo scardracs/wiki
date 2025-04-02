@@ -9,13 +9,13 @@ SteamFork is installed by downloading an image, flashing it to an SD Card or USB
 * Choose the version of SteamFork you want to install:
 
 | Branch       | Upstream Version | Download Link                                                                                                           | Checksum                                                                                                           |
-|--------------|---------|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **Stable**   | 3.6     | [![Stable](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Stable&style=flat#only-light)](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso)[![Stable](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Stable&style=flat#only-dark)](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso.sha256)                       |
-| **Testing**  | 3.7     | [![Testing](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=FF9900&label=Testing&style=flat#only-light)](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso)[![Testing](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=FF9900&label=Testing&style=flat#only-dark)](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso.sha256)                   |
+|--------------|------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **Stable**   | 3.6              | [![Stable](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Stable&style=flat#only-light)](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso)[![Stable](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Stable&style=flat#only-dark)](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso.sha256)                       |
+| **Latest**   | 3.7              | [![Latest](https://img.shields.io/badge/Latest-3.7-FF9900?labelColor=111111&style=flat#only-light)](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso)[![Latest](https://img.shields.io/badge/Latest-3.7-FF9900?labelColor=dddddd&style=flat#only-dark)](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso.sha256)                   |
 
 * Download the version that best suits your needs:
   * **Stable**: Recommended for most users.
-  * **Testing**: Includes experimental features but may not be as stable.
+  * **Latest**: Includes experimental features but may not be as stable.
 
 ## Step 2: Flash
 
