@@ -6,6 +6,20 @@
 
 SteamFork is a SteamOS-based operating system with improved hardware compatibility.  It is designed to provide the same experience as SteamOS on a SteamDeck.
 
+## End-of-Life Notice
+
+This project has been sunset and will reach its end of life on April 30, 2025. What this means:
+
+### Beginning Today
+- No new features will be developed.
+- No bug fixes will be applied, including security issues.
+- No pull requests will be accepted.
+
+### Beginning on April 30, 2025
+- This project and all repositories will be archived and made read-only.
+- All build and hosting services will be powered down.
+- Your device will continue to function as-is but it will no longer receive updates.
+
 ## Features
 * Works on a variety of devices from ASUS, Antec, Atari, Ayaneo, Ayn, and GPD along with MiniPCs and other computers with compatible hardware.
 * Provides a full SteamOS UI/UX experience, including SteamOS's desktop mode.
