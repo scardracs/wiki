@@ -20,6 +20,8 @@ This project has been sunset and will reach its end of life on April 30, 2025. W
 - All build and hosting services will be powered down.
 - Your device will continue to function as-is but it will no longer receive updates.
 
+We recommend migrating to SteamOS when it becomes generally available.
+
 ## Features
 * Works on a variety of devices from ASUS, Antec, Atari, Ayaneo, Ayn, and GPD along with MiniPCs and other computers with compatible hardware.
 * Provides a full SteamOS UI/UX experience, including SteamOS's desktop mode.
