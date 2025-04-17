@@ -8,16 +8,13 @@ SteamFork is a SteamOS-based operating system with improved hardware compatibili
 
 ## End-of-Life Notice
 
-This project has been sunset and will reach its end of life on April 30, 2025. What this means:
+This project has been sunset and has reached its end of life. What this means:
 
-### Beginning April 16, 2025
 - No new features will be developed.
 - No bug fixes will be applied, including security issues.
 - No pull requests will be accepted.
-
-### On April 30, 2025
 - The project and all repositories will be archived and made read-only.
-- All build and hosting services will be powered down.
+- All build and hosting services will no longer be available.
 - Your device will continue to function as-is but it will no longer receive updates.
 
 We recommend migrating to SteamOS when it becomes generally available.

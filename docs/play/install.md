@@ -8,14 +8,11 @@ SteamFork is installed by downloading an image, flashing it to an SD Card or USB
 
 * Choose the version of SteamFork you want to install:
 
-| Branch       | Upstream Version | Download Link                                                                                                           | Checksum                                                                                                           |
-|--------------|------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **Stable**   | 3.6              | [![Stable](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=111111&color=5998FF&label=Stable&style=flat#only-light)](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso)[![Stable](https://img.shields.io/github/release/SteamFork/distribution.svg?labelColor=dddddd&color=5998FF&label=Stable&style=flat#only-dark)](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-rel-latest-x86_64.iso.sha256)                       |
-| **Testing**  | 3.7              | [![Testing](https://img.shields.io/badge/Testing-Latest-5998FF?labelColor=111111&style=flat#only-light)](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso)[![Testing](https://img.shields.io/badge/Testing-Latest-5998FF?labelColor=dddddd&style=flat#only-dark)](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso) | [SHA256](https://www.steamfork.org/images/installer/steamfork-testing-latest-x86_64.iso.sha256)                   |
+| Branch       | Upstream Version | Installation Image                                                                                                           | Source Code                                                                                                           |
+|--------------|------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------| | **Stable**   | 3.6              | [Archive](https://archive.org/details/SteamFork) | [Sources (SteamFork)](https://archive.org/details/SteamFork-Sources) [Sources (SteamOS)](https://steamdeck-packages.steamos.cloud/archlinux-mirror/sources/)                      |
 
 * Download the version that best suits your needs:
   * **Stable**: Recommended for most users.
-  * **Latest**: Includes experimental features but may not be as stable.
 
 ## Step 2: Flash
 
